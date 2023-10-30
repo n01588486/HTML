@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Recommendations</title>
+</head>
+<body>
+	<h1 align="center">TORONTO RESTAURANT DIRECTORY</h1>
+		<nav align="center">
+		<a href="HomePage.html">Home</a>
+		<a href="Locations.html">Location</a>
+		<a href="cityRestaurants.html">Restaurants</a>
+		<a href="Jobs.html">Jobs</a>
+		<a href="Reviews.html">Reviews</a>
+		<a href="SignUp.html">SignUp</a>
+	</nav>
+	<h2>Preferences</h2>
+	<hr>
+	<table align="center" cellspacing="10">
+	<tr>
+		<td><img src="https://media.istockphoto.com/vectors/salad-vector-id162844340?k=6&m=162844340&s=612x612&w=0&h=eVFaCa-C8AfZ5sw2nHgbAyHEXaeWWQatZM6eFkdz2sU=" 
+	alt="Salad" width="220" height="200">
+		</td>
+		<td><img src="https://th.bing.com/th/id/OIP.SLQnXVtCJhdHOpDc3F62-wHaEA?pid=ImgDet&rs=1" alt="Sushi" width="220" 
+	height="200">
+		</td>
+		<td><img src="https://wikiclipart.com/wp-content/uploads/2017/02/Clipart-desserts-clipartfest.jpeg" alt="Dessert" 
+	width="220" height="200">
+		</td>
+		<td><img src="https://pngimg.com/uploads/barbecue/barbecue_PNG65.png" alt="BBQ" 
+	width="220" height="200">
+		</td>
+		<td><img src="https://clipground.com/images/hamburger-and-fries-clipart-9.jpg" alt="BBQ" 
+	width="220" height="200">
+		</td>
+	</table>
+	<hr>
+	<h3>Vegetarian</h3>
+	<p>Finding delicious vegetarian food that caters to all our vegan cuisine enthusiasts can be quite a challenge. 
+	To address this, we'd like to offer a few recommendations that we believe will satisfy a wide range of palates 
+	when searching for exceptional vegetarian meals.</p>
+	<table align="center">
+		<tr>
+			<td><img src="https://i.pinimg.com/originals/d2/ed/a5/d2eda51c0d86afd1e6901a13dc238634.jpg" 
+			alt="PlantaRestaurant" width="300" height="250"></td>
+			<td><img src="https://cdn.usarestaurants.info/assets/uploads/219f691240430b7b791a5929f35852d2_-canada-ontario-toronto-division-toronto-buddhas-vegan-restaurant-416-603-3811htm.jpg"
+			alt="Budda's Vegan Restaurant" width="300" height="250"></td>
+			<td><img src="https://www.azuremagazine.com/wp-content/uploads/2019/08/Azure-Rosalinda-Restaurant-03-1024x683.jpg"
+			alt="Rosalinda Restaurant" width="300" height="250"></td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://www.plantarestaurants.com/?utm_medium=website&utm_source=nomsmag">PLANTA</a></td>
+			<td align="center"><a href="https://www.buddharestaurant.ca/?utm_medium=website&utm_source=nomsmag">BUDDHA</a></td>
+			<td align="center"><a href="https://www.rosalindarestaurant.com/">ROSALINDA</a></td>
+		</tr>
+	</table>
+	<h3>Dessert</h3>
+	<p>Indulging in sweet desserts can be a delightful way to treat yourself, and discovering new dessert spots can 
+	add an extra layer of enjoyment to your experience. We've curated a list of places that not only promise to 
+	satiate your sweet tooth but also offer a unique and memorable dessert experience.</p>
+	<table align="center">
+		<tr>
+			<td><img src="https://www.toreats.com/wp-content/uploads/2020/07/Eds-2-scaled.jpeg" 
+			alt="Ed's Real Scoop" width="300" height="250"></td>
+			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/13/41/56/72/baked-goods-and-cheese.jpg"
+			alt="Sanremo Bakery and Cafe" width="300" height="250"></td>
+			<td><img src="https://media.blogto.com/uploads/2017/11/25/20170913-2048-WandasPie15.jpg?cmd=resize&quality=70&w=1400&height=2500"
+			alt="Wanda's Pie in the sky restaurant" width="300" height="250"></td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://www.edsrealscoop.com/">ED'S REAL SCOOP</a></td>
+			<td align="center"><a href="https://www.sanremobakery.com/">Sanremo Bakery and Cafe</a></td>
+			<td align="center"><a href="http://wandaspieinthesky.com/">WandasPieInTheSky</a></td>
+		</tr>
+	</table>
+	<h3>Western</h3>
+	<p>Amidst Toronto's thriving culinary scene, which boasts an eclectic array of cuisines, Western food can sometimes 
+	appear relatively straightforward. If you're craving something both novel and familiar but find yourself unsure of 
+	where to start your journey, fear not. The <abbr title="Toronto Restaurant Directory">TRD</abbr> is here to guide you with 
+	a curated selection of recommendations that promise to satisfy your craving for a fresh dining experience while staying true
+	to the essence of Western cuisine.</p>
+	<table align="center">
+		<tr>
+			<td><img src="https://media.blogto.com/listings/99a5-20161015-eggsmart-bloor.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70" 
+			alt="EggsmartRestaurant" width="300" height="250"></td>
+			<td><img src="https://media.blogto.com/listings/20191119-HysSteakhouse17.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
+			alt="Hy's Steakhouse" width="300" height="250"></td>
+			<td><img src="https://i.pinimg.com/originals/96/ca/c2/96cac2c2dec6d92d4be5957448f05300.jpg"
+			alt="The burgernator food" width="300" height="250"></td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://eggsmart.com/">EGGSMART</a></td>
+			<td align="center"><a href="https://www.hyssteakhouse.com/">HY'S STEAKHOUSE</a></td>
+			<td align="center"><a href="https://www.theburgernator.com/">THE BURGERNATOR</a></td>
+		</tr>
+	</table>
+	<h3>Chinese</h3>
+	<p>Variety is the spice of life, and in a multicultural city like Toronto, the culinary landscape thrives on diversity.
+	Chinese cuisine unquestionably holds a cherished place in this rich tapestry of culinary experiences. While the city boasts 
+	a multitude of Chinese food establishments, we'd like to highlight some of our personal favorites—ones that bring a unique 
+	twist to this beloved cuisine while staying true to the flavors we all cherish. These restaurants offer a fresh perspective 
+	on Chinese food, making them stand out in a city known for its culinary delights.</p>
+	<table align="center">
+		<tr>
+			<td><img src="https://s3-media0.fl.yelpcdn.com/bphoto/YPjjBHfhiPzmGxWQlHA5ZQ/o.jpg" 
+			alt="Mother's Dumplings" width="300" height="250"></td>
+			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/05/00/88/59/buffet-2.jpg"
+			alt="Mandarin restaurant" width="300" height="250"></td>
+			<td><img src="https://th.bing.com/th/id/OIP.KO5mYUs_BySjymztqURB8wAAAA?pid=ImgDet&rs=1"
+			alt="R&D restaurant" width="300" height="250"></td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://mothersdumplings.com/">MOTHER'S DUMPLINGS</a></td>
+			<td align="center"><a href="https://www.mandarinrestaurant.com/">MANDARIN RESTAURANT</a></td>
+			<td align="center"><a href="https://www.rdspadina.com/">R&amp;D</a></td>
+		</tr>
+	</table>
+	<h3>Pizza</h3>
+	<p>Amidst the abundance of dining options, we'd like to draw your attention to the comforting familiarity of pizzeria franchises. 
+	While numerous fast-food choices are readily available, there are still some dine-in pizzerias that you might not have had the 
+	chance to explore yet. Allow us to introduce you to a selection of these diverse and delightful options, offering a unique dining 
+	experience that goes beyond the usual fast-food fare.</p>
+	<table align="center">
+		<tr>
+			<td><img src="https://ssmscdn.yp.ca/image/resize/e833ceb1-afed-47ea-80c2-55cd7e3d2326_ypapi-m-mp-pic-lg.jpg" 
+			alt="Goodfella's pizza" width="300" height="250"></td>
+			<td><img src="https://www.blogto.com/listings/restaurants/upload/2014/11/20141118-pizzerialibretto2048-09-ed.jpg"
+			alt="Pizzeria Libretto" width="300" height="250"></td>
+			<td><img src="https://th.bing.com/th/id/R.bb7769d4a120242d1a2bb44cc017a389?rik=TYd2FcdyzUp%2b7Q&pid=ImgRaw&r=0"
+			alt="Blaze pizza restaurant" width="300" height="250"></td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://www.goodfellaspizza.ca/">GOODFELLA'S WOOD OVEN PIZZA</a></td>
+			<td align="center"><a href="https://www.pizzerialibretto.com/">PIZZERIA LIBRETTO</a></td>
+			<td align="center"><a href="https://locations.blazepizza.com/on/toronto/10-dundas-st.-east?utm_source=extnet&utm_medium=yext">BLAZE PIZZA</a></td>
+		</tr>
+	</table>
+	<h3>Cafe</h3>
+	<p>Cafes offer a distinct and cherished experience for patrons, contributing significantly to the vibrancy of cities, much like 
+	their fast-food counterparts. Whether you seek a quick pick-me-up to fuel your busy day or a cozy environment for leisurely chats 
+	with friends, cafes hold a special place in the heart of city life. The <abbr title="Toronto Restaurant Directory">TRD</abbr> is 
+	delighted to present you with a curated selection of our favorite cafes, each offering its unique charm and the perfect setting for
+	your needs.</p>
+	<table align="center">
+		<tr>
+			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/14/22/76/fd/balzac-s-coffee-ltd.jpg" 
+			alt="Balzac's cafe" width="300" height="250"></td>
+			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/10/2d/b6/3d/australian-approved-flat.jpg"
+			alt="Fahrenheit coffee" width="300" height="250"></td>
+			<td><img src="https://media.blogto.com/articles/20190712-timhortons.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
+			alt="Tim Hortons" width="300" height="250"></td>
+		</tr>
+		<tr>
+			<td align="center"><a href="https://balzacs.com/pages/distillery-district">BALZAC'S</a></td>
+			<td align="center"><a href="http://www.fahrenheitcoffee.com/">FAHRENHEIT COFFEE</a></td>
+			<td align="center"><a href="https://www.timhortons.ca/?_gl=1*1m1k26m*_gcl_au*NDUwMDU4NDMyLjE2OTY4ODg1MTQ.">TIM HORTONS</a></td>
+		</tr>
+	</table>
+</body>
+<footer>
+	<!--Footer Goes Here-->
+</footer>
+</html>
