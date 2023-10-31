@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Recommendations</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>4Star | Directory</title>
 </head>
 <body>
 	<h1 align="center">TORONTO RESTAURANT DIRECTORY</h1>
 		<nav align="center">
-		<a href="HomePage.html">Home</a>
-		<a href="Locations.html">Location</a>
-		<a href="cityRestaurants.html">Restaurants</a>
-		<a href="Jobs.html">Jobs</a>
+		<a href="home.html">Home</a>
+		<a href="HomePage.html">Locations</a>
+		<a href="cityResurants.html">Restaurants</a>
+		<a href="Job.html">Jobs</a>
 		<a href="Reviews.html">Reviews</a>
-		<a href="SignUp.html">SignUp</a>
+		<a href="index.html">SignUp</a>
+	 	<a href ="Preferences.html">Preferences</a>
+
 	</nav>
 	<h2>Preferences</h2>
 	<hr>
 	<table align="center" cellspacing="10">
 	<tr>
-		<td><img src="https://media.istockphoto.com/vectors/salad-vector-id162844340?k=6&m=162844340&s=612x612&w=0&h=eVFaCa-C8AfZ5sw2nHgbAyHEXaeWWQatZM6eFkdz2sU=" 
+		<td><img src = "assets/images/DayImg/Salad.jpg" 
 	alt="Salad" width="220" height="200">
 		</td>
-		<td><img src="https://th.bing.com/th/id/OIP.SLQnXVtCJhdHOpDc3F62-wHaEA?pid=ImgDet&rs=1" alt="Sushi" width="220" 
+		<td><img src="assets/images/DayImg/Sushi-IMG.jpg" alt = "Sushi" width="220" 
 	height="200">
 		</td>
-		<td><img src="https://wikiclipart.com/wp-content/uploads/2017/02/Clipart-desserts-clipartfest.jpeg" alt="Dessert" 
+		<td><img src="assets/images/DayImg/Dessert-IMG.jpeg" alt="Dessert" 
 	width="220" height="200">
 		</td>
-		<td><img src="https://pngimg.com/uploads/barbecue/barbecue_PNG65.png" alt="BBQ" 
+		<td><img src="assets/images/DayImg/BBQ-IMG.png" alt="BBQ" 
 	width="220" height="200">
 		</td>
-		<td><img src="https://clipground.com/images/hamburger-and-fries-clipart-9.jpg" alt="BBQ" 
+		<td><img src="assets/images/DayImg/HamburgerFries.jpg" alt="BBQ" 
 	width="220" height="200">
 		</td>
 	</table>
@@ -41,11 +44,11 @@
 	when searching for exceptional vegetarian meals.</p>
 	<table align="center">
 		<tr>
-			<td><img src="https://i.pinimg.com/originals/d2/ed/a5/d2eda51c0d86afd1e6901a13dc238634.jpg" 
+			<td><img src="assets/images/DayImg/IndoorRestaurant.jpg" 
 			alt="PlantaRestaurant" width="300" height="250"></td>
-			<td><img src="https://cdn.usarestaurants.info/assets/uploads/219f691240430b7b791a5929f35852d2_-canada-ontario-toronto-division-toronto-buddhas-vegan-restaurant-416-603-3811htm.jpg"
+			<td><img src="assets/images/DayImg/RestaurantFood.jpg"
 			alt="Budda's Vegan Restaurant" width="300" height="250"></td>
-			<td><img src="https://www.azuremagazine.com/wp-content/uploads/2019/08/Azure-Rosalinda-Restaurant-03-1024x683.jpg"
+			<td><img src="assets/images/DayImg/RosalindaRestaurant.webp"
 			alt="Rosalinda Restaurant" width="300" height="250"></td>
 		</tr>
 		<tr>
@@ -60,11 +63,11 @@
 	satiate your sweet tooth but also offer a unique and memorable dessert experience.</p>
 	<table align="center">
 		<tr>
-			<td><img src="https://www.toreats.com/wp-content/uploads/2020/07/Eds-2-scaled.jpeg" 
+			<td><img src="assets/images/DayImg/Eds-IceCream.jpeg" 
 			alt="Ed's Real Scoop" width="300" height="250"></td>
-			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/13/41/56/72/baked-goods-and-cheese.jpg"
+			<td><img src="assets/images/DayImg/BakedGoods.jpg"
 			alt="Sanremo Bakery and Cafe" width="300" height="250"></td>
-			<td><img src="https://media.blogto.com/uploads/2017/11/25/20170913-2048-WandasPie15.jpg?cmd=resize&quality=70&w=1400&height=2500"
+			<td><img src="assets/images/DayImg/WandasPie.webp"
 			alt="Wanda's Pie in the sky restaurant" width="300" height="250"></td>
 		</tr>
 		<tr>
@@ -81,11 +84,11 @@
 	to the essence of Western cuisine.</p>
 	<table align="center">
 		<tr>
-			<td><img src="https://media.blogto.com/listings/99a5-20161015-eggsmart-bloor.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70" 
+			<td><img src="assets/images/DayImg/Eggsmart.webp" 
 			alt="EggsmartRestaurant" width="300" height="250"></td>
-			<td><img src="https://media.blogto.com/listings/20191119-HysSteakhouse17.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
+			<td><img src="assets/images/DayImg/HysSteakhouse.webp"
 			alt="Hy's Steakhouse" width="300" height="250"></td>
-			<td><img src="https://i.pinimg.com/originals/96/ca/c2/96cac2c2dec6d92d4be5957448f05300.jpg"
+			<td><img src="assets/images/DayImg/Burgernator.jpg"
 			alt="The burgernator food" width="300" height="250"></td>
 		</tr>
 		<tr>
@@ -102,11 +105,11 @@
 	on Chinese food, making them stand out in a city known for its culinary delights.</p>
 	<table align="center">
 		<tr>
-			<td><img src="https://s3-media0.fl.yelpcdn.com/bphoto/YPjjBHfhiPzmGxWQlHA5ZQ/o.jpg" 
+			<td><img src="assets/images/DayImg/Dumplings.jpg" 
 			alt="Mother's Dumplings" width="300" height="250"></td>
-			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/05/00/88/59/buffet-2.jpg"
+			<td><img src="assets/images/DayImg/MandarinBuffet.jpg"
 			alt="Mandarin restaurant" width="300" height="250"></td>
-			<td><img src="https://th.bing.com/th/id/OIP.KO5mYUs_BySjymztqURB8wAAAA?pid=ImgDet&rs=1"
+			<td><img src="assets/images/DayImg/Food-IMG.jpg"
 			alt="R&D restaurant" width="300" height="250"></td>
 		</tr>
 		<tr>
@@ -122,11 +125,11 @@
 	experience that goes beyond the usual fast-food fare.</p>
 	<table align="center">
 		<tr>
-			<td><img src="https://ssmscdn.yp.ca/image/resize/e833ceb1-afed-47ea-80c2-55cd7e3d2326_ypapi-m-mp-pic-lg.jpg" 
+			<td><img src="assets/images/DayImg/PizzaLoaded.jpg" 
 			alt="Goodfella's pizza" width="300" height="250"></td>
-			<td><img src="https://www.blogto.com/listings/restaurants/upload/2014/11/20141118-pizzerialibretto2048-09-ed.jpg"
+			<td><img src="assets/images/DayImg/LibrettoPizza.jpg"
 			alt="Pizzeria Libretto" width="300" height="250"></td>
-			<td><img src="https://th.bing.com/th/id/R.bb7769d4a120242d1a2bb44cc017a389?rik=TYd2FcdyzUp%2b7Q&pid=ImgRaw&r=0"
+			<td><img src="assets/images/DayImg/BlazePizza.jpg"
 			alt="Blaze pizza restaurant" width="300" height="250"></td>
 		</tr>
 		<tr>
@@ -143,11 +146,11 @@
 	your needs.</p>
 	<table align="center">
 		<tr>
-			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/14/22/76/fd/balzac-s-coffee-ltd.jpg" 
+			<td><img src="assets/images/DayImg/Balzacs.jpg" 
 			alt="Balzac's cafe" width="300" height="250"></td>
-			<td><img src="https://media-cdn.tripadvisor.com/media/photo-s/10/2d/b6/3d/australian-approved-flat.jpg"
+			<td><img src="assets/images/DayImg/CoffeeCookie.jpg"
 			alt="Fahrenheit coffee" width="300" height="250"></td>
-			<td><img src="https://media.blogto.com/articles/20190712-timhortons.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70"
+			<td><img src="assets/images/DayImg/TimHortonsRestaurant.webp"
 			alt="Tim Hortons" width="300" height="250"></td>
 		</tr>
 		<tr>
