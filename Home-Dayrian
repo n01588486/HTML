@@ -1,89 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>4Star | Intro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 15px;
+        }
+        h1 {
+            border: solid;
+            color: white;
+            border-color: green;
+            background-color: black;
+            text-shadow: 4px 4px 7px green;
+            text-align: center;
+        }
+        .menu {
+            height: 60px;
+            background-color: #E50914;
+            color: white;
+            font-weight: bold;
+        }
+
+        .menu ul {
+            height: 100%;
+        }
+
+        .menu li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 16px;
+            margin-top: 3px;
+        }
+
+        p {
+            text-indent: 50px;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-	<h1 align="center">TORONTO RESTAURANT DIRECTORY</h1>
-	<nav align="center">
-		<a href="home.html">Home</a>
-		<a href="Preferences.html">Preferences</a>
-		<a href="HomePage.html">Locations</a>
-		<a href="cityResurants.html">Restaurants</a>
-		<a href="Job.html">Jobs</a>
-		<a href="Reviews.html">Reviews</a>
-		<a href="index.html">Sign Up</a>
-	</nav>
-	<br>
-	<img src="assets/images/DayImg/torontoskyline.png" 
-	alt="City Landscape" width="1200" height="250" align="center">
-	<hr>
-	<section>
-		<h3>Your Culinary Guide in Toronto</h3>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;Toronto, which is frequently praised as a model of multiculturalism, is home to a diverse array of culinary 
-		traditions from around the world that are all crammed into a very limited geographic space. Foodies and newbies to the culinary scene 
-		can start an intriguing culinary journey in this city. That's why <abbr title="Toronto Restaurant Directory">TRD</abbr> has made it our mission to establish a central hub
-		for anyone looking to explore and navigate Toronto's diverse eating scene We're here to help you find the best dining experiences the 
-		city has to offer, whether you're a seasoned food fan or just getting started in this exciting culinary world.</p>
-	
-		<img src="assets/images/DayImg/StreetFair.jpg" alt="Food Stalls" width="250" height="150">
+    <header>
+        <h1>TORONTO RESTAURANT DIRECTORY</h1>
+        <div class="menu">
+            <ul>
+                <li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
+                <li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
+				<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
+                <li><a href="Location.html" style="color: white;">Locations</a></li>
+                <li><a href="Job.html" style="color: white;">Jobs</a></li>
+                <li><a href="Reviews.html" style="color: white;">Reviews</a></li>
+                <li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
+            </ul>
+        </div>
+    </header>
+    <img src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1200" height="250" align="center">
+    <hr>
+    <section>
+        <h3>Your Culinary Guide in Toronto</h3>
+        <p>
+            Toronto, which is frequently praised as a model of multiculturalism, is home to a diverse array of culinary
+            traditions from around the world that are all crammed into a very limited geographic space. Foodies and newbies
+            to the culinary scene can start an intriguing culinary journey in this city. That's why
+            <abbr title="Toronto Restaurant Directory">TRD</abbr> has made it our mission to establish a central hub for anyone
+            looking to explore and navigate Toronto's diverse eating scene. We're here to help you find the best dining experiences
+            the city has to offer, whether you're a seasoned food fan or just getting started in this exciting culinary world.
+        </p>
 
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;You'll find a wealth of directories spanning a diverse range of culinary disciplines when you visit (website title). 
-		Our objective is to give you a smooth and simple platform to explore Toronto's diverse food scene. Our directories will be your go-to source 
-		for discovering the ideal dining experience in this multicultural city, whether you're craving a particular cuisine, hunting for hidden treasures, 
-		or simply want to try something new.</p>
+        <img src="assets/images/DayImg/StreetFair.jpg" alt="Food Stalls" width="250" height="150">
 
-		<img src="assets/images/DayImg/Waffles.webp" 
-		alt="Restaurant" width="300" height="200" align="right">
-		<ul>
-			<li>Location</li><br>
-			<li>Genre's</li><br>
-			<li>Specialties</li><br>
-		</ul>
-	</section>
-	<section>
-		<h3>Highlighted Restaurants</h3>
-		<p>The highlight restaurant is a restaurant that has a uniqueness to itself and continues to push itself into the food scene either as
-		an up and coming or a seasoned restaurant that deserves to be featured. We hope to allow less informed people of the multitude of food
-		scenes that they can hopefully get to experience and decide for themselves if it is getting the recognition it deserves.</p>
-		<table align="center">
-			<tr>
-				<td><h2>McDonalds</h2></td>
-				<td><img src="assets/images/DayImg/McDonaldsRestaurant.jpg" 
-				width="400" height="170"></td>
-				<td>McDonald's is undoubtedly a standout in the fast-food culinary landscape, and we firmly believe it deserves recognition and 
-				celebration for its extensive menu offerings and unwavering consistency. While McDonald's is a household name, it remains a 
-				pioneer in the industry by continually introducing innovative menu items. Its wide range of choices caters to diverse tastes,
-				making it an ideal choice for virtually anyone. Given these factors, we are proud to showcase McDonald's as a highlighted 
-				establishment in the world of fast food.
-				</td>
-			</tr>
-			<tr>
-				<td><h2>Wendy's</h2></td>
-				<td><img src = "assets/images/DayImg/WendysRestaurant.jpg"alt="Wendy's Restaurant" width="400" height="170"></td>
-				<td>Wendy's stands as one of the prominent giants in the fast-food industry, emphasizing its robust and hearty menu offerings, 
-				perfect for those seeking a more substantial meal. This renowned establishment reliably delivers satisfaction and never leaves
-				patrons hungry. Thanks to Wendy's ability to consistently provide hearty and fulfilling options, we have chosen to feature it 
-				among our highlighted restaurants.
-				</td>
-			</tr>
-			<tr>
-				<td><h2>Pizza Hut</h2></td>
-				<td><img src="assets/images/DayImg/PizzaHutRestaurant.jpg"
-				alt="Pizza Hut Restaurant" width="400" height="170"></td>
-				<td>Pizza Hut stands out as a pizzeria that remains committed to the concept of family dining, diverging from the typical fast-food 
-				approach. It steadfastly maintains its unique identity, setting itself apart from other similar establishments. Pizza Hut is the 
-				natural choice for families seeking a dining experience that combines the pleasures of restaurant dining with the delectable taste 
-				of pizza and a diverse range of accompanying dishes. For these compelling reasons, we highly recommend Pizza Hut, not only for its 
-				delicious food but also for the enjoyable restaurant atmosphere it provides.
-				</td>
-			</tr>
-		</table>
-	</section>
+        <p>
+            You'll find a wealth of directories spanning a diverse range of culinary disciplines when you visit (website title).
+            Our objective is to give you a smooth and simple platform to explore Toronto's diverse food scene. Our directories will
+            be your go-to source for discovering the ideal dining experience in this multicultural city, whether you're craving a
+            particular cuisine, hunting for hidden treasures, or simply want to try something new.
+        </p>
+
+        <img src="assets/images/DayImg/Waffles.webp"
+            alt="Restaurant" width="300" height="200" align="right">
+        <ul>
+            <li>Location</li>
+            <li>Genres</li>
+            <li>Specialties</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Highlighted Restaurants</h3>
+        <p>
+            The highlighted restaurant is a restaurant that has uniqueness to itself and continues to push itself into the food
+            scene either as an up-and-coming or a seasoned restaurant that deserves to be featured. We hope to allow less informed
+            people of the multitude of food scenes that they can hopefully get to experience and decide for themselves if it is
+            getting the recognition it deserves.
+        </p>
+        <table align="center">
+            <tr>
+                <td><h2>McDonald's</h2></td>
+                <td><img src="assets/images/DayImg/McDonaldsRestaurant.jpg"
+                    width="400" height="170"></td>
+                <td>McDonald's is undoubtedly a standout in the fast-food culinary landscape, and we firmly believe it deserves recognition and
+                    celebration for its extensive menu offerings and unwavering consistency. While McDonald's is a household name, it remains a
+                    pioneer in the industry by continually introducing innovative menu items. Its wide range of choices caters to diverse tastes,
+                    making it an ideal choice for virtually anyone. Given these factors, we are proud to showcase McDonald's as a highlighted
+                    establishment in the world of fast food.
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Wendy's</h2></td>
+                <td><img src="assets/images/DayImg/WendysRestaurant.jpg" alt="Wendy's Restaurant" width="400" height="170"></td>
+                <td>Wendy's stands as one of the prominent giants in the fast-food industry, emphasizing its robust and hearty menu offerings,
+                    perfect for those seeking a more substantial meal. This renowned establishment reliably delivers satisfaction and never leaves
+                    patrons hungry. Thanks to Wendy's ability to consistently provide hearty and fulfilling options, we have chosen to feature it
+                    among our highlighted restaurants.
+                </td>
+            </tr>
+            <tr>
+                <td><h2>Pizza Hut</h2></td>
+                <td><img src="assets/images/DayImg/PizzaHutRestaurant.jpg"
+                    alt="Pizza Hut Restaurant" width="400" height="170"></td>
+                <td>Pizza Hut stands out as a pizzeria that remains committed to the concept of family dining, diverging from the typical fast-food
+                    approach. It steadfastly maintains its unique identity, setting itself apart from other similar establishments. Pizza Hut is the
+                    natural choice for families seeking a dining experience that combines the pleasures of restaurant dining with the delectable taste
+                    of pizza and a diverse range of accompanying dishes. For these compelling reasons, we highly recommend Pizza Hut, not only for its
+                    delicious food but also for the enjoyable restaurant atmosphere it provides.
+                </td>
+            </tr>
+        </table>
+    </section>
 </body>
 <footer>
-	<!--Footer Goes Here-->
-</footer>
-</html>
+    <!-- Footer Goes Here -->
+</footer
