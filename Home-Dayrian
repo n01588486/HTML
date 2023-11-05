@@ -44,7 +44,7 @@
 </head>
 <body>
     <header>
-        <h1>TORONTO RESTAURANT DIRECTORY</h1>
+        <h1>TORONTO RESTAURANT DIRECTORY test</h1>
         <div class="menu">
             <ul>
                 <li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
