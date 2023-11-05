@@ -8,8 +8,18 @@
     <style>
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			border: solid;
+			border-width: 0px 5px 0px 5px;
             margin: 15px;
         }
+		
+		header {
+			background: url(assets/images/DayImg/stars.png);
+		}
+		header img {
+			padding: 10px 0px 0px 0px;
+		}
+		
         h1 {
             border: solid;
             color: white;
@@ -18,11 +28,13 @@
             text-shadow: 4px 4px 7px green;
             text-align: center;
         }
+		
         .menu {
             height: 60px;
-            background-color: #E50914;
+            background-color: #e5a709;
             color: white;
             font-weight: bold;
+			margin-top: -22px;
         }
 
         .menu ul {
@@ -33,8 +45,16 @@
             list-style-type: none;
             display: inline-block;
             padding: 16px;
-            margin-top: 3px;
+            margin-top: -10px;
         }
+		
+		section {
+			padding: 15px;
+		}
+		
+		.intro p:first-of-type::first-letter { 
+			font-size: 200%;
+		}
 
         p {
             text-indent: 50px;
@@ -56,10 +76,9 @@
                 <li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
             </ul>
         </div>
-    </header>
-    <img src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1200" height="250" align="center">
-    <hr>
-    <section>
+    <img src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250" align="center">
+	</header>
+    <section id="intro">
         <h3>Your Culinary Guide in Toronto</h3>
         <p>
             Toronto, which is frequently praised as a model of multiculturalism, is home to a diverse array of culinary
@@ -79,8 +98,7 @@
             particular cuisine, hunting for hidden treasures, or simply want to try something new.
         </p>
 
-        <img src="assets/images/DayImg/Waffles.webp"
-            alt="Restaurant" width="300" height="200" align="right">
+        <img src="assets/images/DayImg/Waffles.webp" alt="Restaurant" width="300" height="200" align="right">
         <ul>
             <li>Location</li>
             <li>Genres</li>
@@ -132,4 +150,4 @@
 </body>
 <footer>
     <!-- Footer Goes Here -->
-</footer
+</footer>
