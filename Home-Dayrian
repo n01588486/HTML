@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
+    <title>4Star | HomePage</title>
     <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
     <style>
+		html {
+			border: solid;
+			border-width: 5px 5px 0px 5px;
+		}
+		
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-			border: solid;
-			border-width: 0px 5px 0px 5px;
-            margin: 15px;
+            margin: 0;
+			padding: 0;
 			background: radial-gradient(circle, white, lightgray);
         }
 		
 		header {
 			background: url(assets/images/DayImg/stars.png);
+		}
+		
+		#city {
+			display: block;
+			margin: 0 auto;
 		}
 		
 		header img {
@@ -24,6 +33,8 @@
 		
         h1 {
             border: solid;
+			padding: 10px;
+			margin: 0;
             color: white;
             border-color: black;
             background-color: black;
@@ -49,6 +60,10 @@
             padding: 16px;
             margin-top: -18px;
         }
+		
+		a {
+			text-decoration: none;
+		}
 		
 		section {
 			padding: 15px;
@@ -114,8 +129,8 @@
                 <li><a href="Reviews.html" style="color: white;">Reviews</a></li>
                 <li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
             </ul>
-        </div>
-    <img src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250" align="center">
+		</div>
+		<img id="city" src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250" align="center">
 	</header>
     <section id="intro">
         <h3>Your Culinary Guide in Toronto</h3>

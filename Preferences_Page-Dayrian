@@ -6,22 +6,28 @@
 	<title>4Star | Directory</title>
 	<link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
 	<style>
-		body {
-			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		html {
 			border: solid;
-			border-width: 0px 5px 0px 5px;
-			margin: 15px;
+			border-width: 5px 5px 0px 5px;
+		}
+		
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+			padding: 0;
 			background: radial-gradient(circle, white, lightgray);
-		}
+        }
 
-		h1 {
-			border: solid;
-			color: white;
-			border-color: black;
-			background-color: black;
-			text-shadow: 4px 4px 7px green;
-			text-align: center;
-		}
+        h1 {
+            border: solid;
+			padding: 10px;
+			margin: 0;
+            color: white;
+            border-color: black;
+            background-color: black;
+            text-shadow: 4px 4px 7px green;
+            text-align: center;
+        }
 
 		#head {
 			background-color: white;
@@ -45,6 +51,10 @@
 			display: inline-block;
 			padding: 16px;
 			margin-top: -8px;
+		}
+		
+		.menu a {
+			text-decoration: none;
 		}
 
 		main {
