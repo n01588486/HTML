@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Star | Home</title>
+    <style>
+        
+        .menu
+        {
+            height: 60px;
+            background-color: #E50914;
+            color: white;
+            font-weight:bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        
+        .menu ul
+        {
+            height: 100%;
+            
+        }
+        .menu li
+        {
+            list-style-type: none;
+            display: inline-block;
+            padding: 16px;
+            margin-top:3px;
+          
+
+          
+        }
+        .card
+        {
+            width: 250px !important;
+            margin-top:20px ;
+            border: 1px solid lightgray;
+            height: auto;
+            display: inline-block;
+        }
+       
+        .card .header img
+        {
+            width: 100%;
+            height: auto;
+        }
+        a
+        {
+            text-decoration: none;
+            color: #81181e;
+            
+        }
+
+        .card-body a:hover
+        {
+            text-decoration: underline;
+            color: #1b0102;
+        }
+        .card-body
+        {
+            text-align: left !important;
+            padding:10px;
+        }   
+        p{
+            text-align: justify;
+        }
+        button{
+            background-color: #ff7c02;
+            padding: 10px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><img src="assets/icons/icon_home.png" alt="" ><span style="padding: 10px;">Home</span></li>
+            <li><img src="assets/icons/search.png" alt=""> <span>Find Resturant</span></li>
+            <li><a href="Job.html" style="color:rgb(255, 255, 255);">Jobs</a></li>
+            <li><a href="Reviews.html" style="color:white;">Reviews</a></li>
+            <li><a href="HomePage.html" style="color:rgb(255, 255, 255);">Direction</a></li>
+            <li><a href="index.html" style="color:white;"><button>SignUp</button></a></li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <h3>Toronto Top Level Resturants</h3>
+        <hr>
+
+        <div class="card">
+            <div class="header">
+                <img src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="https://www.mcdonalds.com/ca/en-ca.html">McDonald's</a></h2>
+                <h4 style="color:gray"><img src="assets/icons/location.png" style="height: 24px;" alt="location">Toronto,ontario ...</h4>
+                <hr>
+                <p>McDonald's Corporation is an American multinational fast food chain, founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California, United States.</p>
+                <hr>
+                <a href="https://textilemuseum.ca/visit/" target="_blank"><button>Visit Website</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="https://media.blogto.com/articles/20190712-timhortons.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="https://www.timhortons.ca/?lang=en">Tim Hortons</a></h2>
+                <h4 style="color:gray"><img src="assets/icons/location.png" style="height: 24px;" alt="location">Etobicoke,ontario ...</h4>
+                <hr>
+                <p>Tim Hortons Inc., commonly nicknamed Tim's or Timmie's, is a Canadian multinational coffeehouse and restaurant chain. Based in Toronto, Tim Hortons serves coffee, donuts, sandwiches, and other fast-food items.</p>
+                <hr>
+                <a href="https://textilemuseum.ca/visit/" target="_blank"><button>Visit Website</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Arby%27s_logo.svg/1200px-Arby%27s_logo.svg.png" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="https://www.arbys.com">Arbys</a></h2>
+                <h4 style="color:gray"><img src="assets/icons/location.png" style="height: 24px;" alt="location">North york,ontario ...</h4>
+                <hr>
+                <p>Arby's is an American fast food sandwich restaurant chain with more than 3,300 restaurants system wide and third in terms of revenue. In October 2017, Food & Wine called Arby's "America's second largest sandwich chain". Arby's is the flagship property of Inspire Brands, the renamed Arby's Restaurant Group, Inc.</p>
+                <hr>
+                <a href="https://textilemuseum.ca/visit/" target="_blank"><button>Visit Website</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="https://www.ctvnews.ca/polopoly_fs/1.5101628.1599921943!/httpImage/image.jpg_gen/derivatives/landscape_960/image.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="https://mandarinrestaurant.com">Mandarin</a></h2>
+                <h4 style="color:gray"><img src="assets/icons/location.png" style="height: 24px;" alt="location">Scarborough,ontario ...</h4>
+                <hr>
+                <p>Mandarin Restaurant Franchise Corporation is a chain of all-you-can-eat Chinese-Canadian buffet restaurants. It was founded in 1979 and currently has its headquarters in Brampton, Ontario.</p>
+                <hr>
+                <a href="https://textilemuseum.ca/visit/" target="_blank"><button>Visit Website</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="https://www.kark.com/wp-content/uploads/sites/85/2021/12/OliveGardenGettyImages-1326009258.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="https://www.olivegarden.com/home">olive Garden</a></h2>
+                <h4 style="color:gray"><img src="assets/icons/location.png" style="height: 24px;" alt="location">Mississauga,ontario ...</h4>
+                <hr>
+                <p>Olive Garden is an American casual dining restaurant chain specializing in Italian–American cuisine. It is a subsidiary of Darden Restaurants, Inc., which is headquartered in Orange County, Florida. As of 2022, Olive Garden restaurants accounted for $4.5 billion of the $9.63 billion revenue of its parent, Darden.</p>
+                <hr>
+                <a href="https://textilemuseum.ca/visit/" target="_blank"><button>Visit Website</button></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
