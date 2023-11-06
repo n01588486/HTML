@@ -1,8 +1,7 @@
-
-<!doctype html>
+<!DOCTYPE html>
  <html lang = "en">
  <head>
- <title> Reviews/Critics Page 5 </title>
+ <title>4Star | Reviews</title>
  </head>
 <style>
 h1 {text-align: center;}
@@ -21,13 +20,15 @@ font-size: 28px;
 <form>
 <h1><b><u> Resturant Reviews </u></b></h1> 
 <h3>
-<a href="home.html">Home</a> 
-<a href="Job.html">Jobs </a>
-<a href="index.html">Sign Up</a>
-<a href="Reviews.html">Reviews </a>
-<a href="HomePage.html">Locations</a> 
-<a href="cityResurants.html">City Resturants</a>
-<a href= "Preferences.html">Preferences</a>
+<nav align="center">
+    <a href="HomePage.html">Home</a>
+    <a href="Job.html">Job</a>
+    <a href="index.html">SignUp</a>
+    <a href="Reviews.html">Review</a>
+    <a href="Location.html">Locations</a>
+    <a href="Places.html">Places</a>
+    <a href ="Preferences.html">Preferences</a>
+</nav>
 </h3>
 <h1><img src = "assets/images/WeAreHiring.jpg" height ="180px" width = "680px" alt="rating"></h1>
 <hr>
