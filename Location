@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Star | Home</title>
+    <style>
+        .body
+        {
+            text-align: center !important;
+        }
+        .menu
+        {
+            height: 60px;
+            background-color: #E50914;
+            color: white;
+            font-weight:bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+        
+        .menu ul
+        {
+            height: 100%;
+            
+        }
+        .menu li
+        {
+            list-style-type: none;
+            display: inline-block;
+            padding: 16px;
+            margin-top:3px;
+          
+
+          
+        }
+        .card
+        {
+            width: 250px !important;
+            margin-top:20px ;
+            border: 1px solid lightgray;
+            height: auto;
+            display: inline-block;
+        }
+       
+        .card .header img
+        {
+            width: 100%;
+            height: auto;
+        }
+        a
+        {
+            text-decoration: none;
+            color: #81181e;
+            
+        }
+
+        .card-body a:hover
+        {
+            text-decoration: underline;
+            color: #1b0102;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><img src="assets/icons/icon_home.png" alt="" ><span style="padding: 10px;">Home</span></li>
+            <li><img src="assets/icons/search.png" alt=""> <span>Find Resturant</span></li>
+            <li><a href="Job.html" style="color:rgb(255, 255, 255);">Jobs</a></li>
+            <li><a href="HomePage.html" style="color:rgb(255, 255, 255);">Direction</a></li>
+            <li><a href="Reviews.html" style="color:rgb(255, 255, 255);">Reviews</a></li>
+            <li><a href="index.html" style="color:rgb(255, 255, 255);"><button>SignUp</button></a></li>
+        </ul>
+    </div>
+
+    <div class="body">
+
+        <div class="card">
+            <div class="header">
+                <img src="assets/images/Ibrah/images.jpeg" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="cityResurants.html"><center>Toronto</center></a></h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="assets/images/Ibrah/unknown.jpeg" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="cityResurants.html"><center>Etobicoke</center></a></h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="assets/images/Ibrah/EDO2-328x219.jpg" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="cityResurants.html"><center>Mississauga</center></a></h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="assets/images/Ibrah/NewYork.png" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="cityResurants.html"><center>North York</center></a></h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header">
+                <img src="assets/images/Ibrah/Scarborough_Ontario.webp" alt="">
+            </div>
+            <div class="card-body">
+                <h2><a href="cityResurants.html"><center>Scarborough</center></a></h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
