@@ -4,199 +4,215 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>4Star | Directory</title>
-    <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
 	<style>
-	    body {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		body {
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			border: solid;
+			border-width: 0px 5px 0px 5px;
 			margin: 15px;
-        }
+			background: radial-gradient(circle, white, lightgray);
+		}
 
-        .menu {
-            height: 60px;
-            background-color: #E50914;
-            color: white;
-            font-weight: bold;
-        }
+		h1 {
+			border: solid;
+			color: white;
+			border-color: black;
+			background-color: black;
+			text-shadow: 4px 4px 7px green;
+			text-align: center;
+		}
 
-        .menu ul {
-            height: 100%;
-        }
+		#head {
+			background-color: white;
+			border-radius: 5px;
+		}
 
-        .menu li {
-            list-style-type: none;
-            display: inline-block;
-            padding: 16px;
-            margin-top: 3px;
-        }
+		.menu {
+			height: 60px;
+			background-color: #e5a709;
+			color: white;
+			font-weight: bold;
+			margin-top: -22px;
+		}
 
-        p {
-            text-indent: 50px;
-            line-height: 1.5;
-        }
+		.menu ul {
+			height: 100%;
+		}
+
+		.menu li {
+			list-style-type: none;
+			display: inline-block;
+			padding: 16px;
+			margin-top: -8px;
+		}
+
+		main {
+			padding: 15px;
+		}
+
+		p {
+			text-indent: 50px;
+			line-height: 1.5;
+		}
+
+		a {
+			color: green;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		
+		td img {
+			border-radius: 8px;
+		}
 	</style>
 </head>
 <body>
-    <header>
-        <h1 align="center">TORONTO RESTAURANT DIRECTORY</h1>
-        <div class="menu">
-             <ul>
-                <li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
-                <li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
+	<header>
+		<h1 align="center">TORONTO RESTAURANT DIRECTORY</h1>
+		<div class="menu">
+			<ul>
+				<li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
+				<li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
 				<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
-                <li><a href="Location.html" style="color: white;">Locations</a></li>
-                <li><a href="Job.html" style="color: white;">Jobs</a></li>
-                <li><a href="Reviews.html" style="color: white;">Reviews</a></li>
-                <li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
-            </ul>
-        </div>
-    </header>
-	<h2>Preferences</h2>
-	<hr>
-	<table align="center" cellspacing="10">
-	<tr>
-		<td><img src = "assets/images/DayImg/Salad.jpg" 
-	alt="Salad" width="220" height="200">
-		</td>
-		<td><img src="assets/images/DayImg/Sushi-IMG.jpg" alt = "Sushi" width="220" 
-	height="200">
-		</td>
-		<td><img src="assets/images/DayImg/Dessert-IMG.jpeg" alt="Dessert" 
-	width="220" height="200">
-		</td>
-		<td><img src="assets/images/DayImg/BBQ-IMG.png" alt="BBQ" 
-	width="220" height="200">
-		</td>
-		<td><img src="assets/images/DayImg/HamburgerFries.jpg" alt="BBQ" 
-	width="220" height="200">
-		</td>
-	</table>
-	<hr>
-	<h3>Vegetarian</h3>
-	<p>Finding delicious vegetarian food that caters to all our vegan cuisine enthusiasts can be quite a challenge. 
-	To address this, we'd like to offer a few recommendations that we believe will satisfy a wide range of palates 
-	when searching for exceptional vegetarian meals.</p>
-	<table align="center">
-		<tr>
-			<td><img src="assets/images/DayImg/IndoorRestaurant.jpg" 
-			alt="PlantaRestaurant" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/RestaurantFood.jpg"
-			alt="Budda's Vegan Restaurant" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/RosalindaRestaurant.webp"
-			alt="Rosalinda Restaurant" width="300" height="250"></td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://www.plantarestaurants.com/?utm_medium=website&utm_source=nomsmag">PLANTA</a></td>
-			<td align="center"><a href="https://www.buddharestaurant.ca/?utm_medium=website&utm_source=nomsmag">BUDDHA</a></td>
-			<td align="center"><a href="https://www.rosalindarestaurant.com/">ROSALINDA</a></td>
-		</tr>
-	</table>
-	<h3>Dessert</h3>
-	<p>Indulging in sweet desserts can be a delightful way to treat yourself, and discovering new dessert spots can 
-	add an extra layer of enjoyment to your experience. We've curated a list of places that not only promise to 
-	satiate your sweet tooth but also offer a unique and memorable dessert experience.</p>
-	<table align="center">
-		<tr>
-			<td><img src="assets/images/DayImg/Eds-IceCream.jpeg" 
-			alt="Ed's Real Scoop" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/BakedGoods.jpg"
-			alt="Sanremo Bakery and Cafe" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/WandasPie.webp"
-			alt="Wanda's Pie in the sky restaurant" width="300" height="250"></td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://www.edsrealscoop.com/">ED'S REAL SCOOP</a></td>
-			<td align="center"><a href="https://www.sanremobakery.com/">Sanremo Bakery and Cafe</a></td>
-			<td align="center"><a href="http://wandaspieinthesky.com/">WandasPieInTheSky</a></td>
-		</tr>
-	</table>
-	<h3>Western</h3>
-	<p>Amidst Toronto's thriving culinary scene, which boasts an eclectic array of cuisines, Western food can sometimes 
-	appear relatively straightforward. If you're craving something both novel and familiar but find yourself unsure of 
-	where to start your journey, fear not. The <abbr title="Toronto Restaurant Directory">TRD</abbr> is here to guide you with 
-	a curated selection of recommendations that promise to satisfy your craving for a fresh dining experience while staying true
-	to the essence of Western cuisine.</p>
-	<table align="center">
-		<tr>
-			<td><img src="assets/images/DayImg/Eggsmart.webp" 
-			alt="EggsmartRestaurant" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/HysSteakhouse.webp"
-			alt="Hy's Steakhouse" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/Burgernator.jpg"
-			alt="The burgernator food" width="300" height="250"></td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://eggsmart.com/">EGGSMART</a></td>
-			<td align="center"><a href="https://www.hyssteakhouse.com/">HY'S STEAKHOUSE</a></td>
-			<td align="center"><a href="https://www.theburgernator.com/">THE BURGERNATOR</a></td>
-		</tr>
-	</table>
-	<h3>Chinese</h3>
-	<p>Variety is the spice of life, and in a multicultural city like Toronto, the culinary landscape thrives on diversity.
-	Chinese cuisine unquestionably holds a cherished place in this rich tapestry of culinary experiences. While the city boasts 
-	a multitude of Chinese food establishments, we'd like to highlight some of our personal favorites—ones that bring a unique 
-	twist to this beloved cuisine while staying true to the flavors we all cherish. These restaurants offer a fresh perspective 
-	on Chinese food, making them stand out in a city known for its culinary delights.</p>
-	<table align="center">
-		<tr>
-			<td><img src="assets/images/DayImg/Dumplings.jpg" 
-			alt="Mother's Dumplings" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/MandarinBuffet.jpg"
-			alt="Mandarin restaurant" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/Food-IMG.jpg"
-			alt="R&D restaurant" width="300" height="250"></td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://mothersdumplings.com/">MOTHER'S DUMPLINGS</a></td>
-			<td align="center"><a href="https://www.mandarinrestaurant.com/">MANDARIN RESTAURANT</a></td>
-			<td align="center"><a href="https://www.rdspadina.com/">R&amp;D</a></td>
-		</tr>
-	</table>
-	<h3>Pizza</h3>
-	<p>Amidst the abundance of dining options, we'd like to draw your attention to the comforting familiarity of pizzeria franchises. 
-	While numerous fast-food choices are readily available, there are still some dine-in pizzerias that you might not have had the 
-	chance to explore yet. Allow us to introduce you to a selection of these diverse and delightful options, offering a unique dining 
-	experience that goes beyond the usual fast-food fare.</p>
-	<table align="center">
-		<tr>
-			<td><img src="assets/images/DayImg/PizzaLoaded.jpg" 
-			alt="Goodfella's pizza" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/LibrettoPizza.jpg"
-			alt="Pizzeria Libretto" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/BlazePizza.jpg"
-			alt="Blaze pizza restaurant" width="300" height="250"></td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://www.goodfellaspizza.ca/">GOODFELLA'S WOOD OVEN PIZZA</a></td>
-			<td align="center"><a href="https://www.pizzerialibretto.com/">PIZZERIA LIBRETTO</a></td>
-			<td align="center"><a href="https://locations.blazepizza.com/on/toronto/10-dundas-st.-east?utm_source=extnet&utm_medium=yext">BLAZE PIZZA</a></td>
-		</tr>
-	</table>
-	<h3>Cafe</h3>
-	<p>Cafes offer a distinct and cherished experience for patrons, contributing significantly to the vibrancy of cities, much like 
-	their fast-food counterparts. Whether you seek a quick pick-me-up to fuel your busy day or a cozy environment for leisurely chats 
-	with friends, cafes hold a special place in the heart of city life. The <abbr title="Toronto Restaurant Directory">TRD</abbr> is 
-	delighted to present you with a curated selection of our favorite cafes, each offering its unique charm and the perfect setting for
-	your needs.</p>
-	<table align="center">
-		<tr>
-			<td><img src="assets/images/DayImg/Balzacs.jpg" 
-			alt="Balzac's cafe" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/CoffeeCookie.jpg"
-			alt="Fahrenheit coffee" width="300" height="250"></td>
-			<td><img src="assets/images/DayImg/TimHortonsRestaurant.webp"
-			alt="Tim Hortons" width="300" height="250"></td>
-		</tr>
-		<tr>
-			<td align="center"><a href="https://balzacs.com/pages/distillery-district">BALZAC'S</a></td>
-			<td align="center"><a href="http://www.fahrenheitcoffee.com/">FAHRENHEIT COFFEE</a></td>
-			<td align="center"><a href="https://www.timhortons.ca/?_gl=1*1m1k26m*_gcl_au*NDUwMDU4NDMyLjE2OTY4ODg1MTQ.">TIM HORTONS</a></td>
-		</tr>
-	</table>
+				<li><a href="Location.html" style="color: white;">Locations</a></li>
+				<li><a href="Job.html" style="color: white;">Jobs</a></li>
+				<li><a href="Reviews.html" style="color: white;">Reviews</a></li>
+				<li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<h2>Preferences</h2>
+		<hr>
+		<table id="head" align="center" cellspacing="10">
+			<tr>
+				<td><img src="assets/images/DayImg/Salad.jpg" alt="Salad" width="210" height="200"></td>
+				<td><img src="assets/images/DayImg/Sushi-IMG.jpg" alt="Sushi" width="210" height="200"></td>
+				<td><img src="assets/images/DayImg/Dessert-IMG.jpeg" alt="Dessert" width="210" height="200"></td>
+				<td><img src="assets/images/DayImg/BBQ-IMG.png" alt="BBQ" width="210" height="200"></td>
+				<td><img src="assets/images/DayImg/HamburgerFries.jpg" alt="BBQ" width="210" height="200"></td>
+			</tr>
+		</table>
+		<hr>
+		<h3>Vegetarian</h3>
+		<p>
+			Finding delicious vegetarian food that caters to all our vegan cuisine enthusiasts can be quite a challenge. 
+			To address this, we'd like to offer a few recommendations that we believe will satisfy a wide range of palates 
+			when searching for exceptional vegetarian meals.
+		</p>
+		<table align="center">
+			<tr>
+				<td><img src="assets/images/DayImg/IndoorRestaurant.jpg" alt="PlantaRestaurant" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/RestaurantFood.jpg" alt="Buddha's Vegan Restaurant" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/RosalindaRestaurant.webp" alt="Rosalinda Restaurant" width="300" height="250"></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://www.plantarestaurants.com/?utm_medium=website&utm_source=nomsmag">PLANTA</a></td>
+				<td align="center"><a href="https://www.buddharestaurant.ca/?utm_medium=website&utm_source=nomsmag">BUDDHA</a></td>
+				<td align="center"><a href="https://www.rosalindarestaurant.com/">ROSALINDA</a></td>
+			</tr>
+		</table>
+		<h3>Dessert</h3>
+		<p>
+			Indulging in sweet desserts can be a delightful way to treat yourself, and discovering new dessert spots can add 
+			an extra layer of enjoyment to your experience. We've curated a list of places that not only promise to satiate your 
+			sweet tooth but also offer a unique and memorable dessert experience.
+		</p>
+		<table align="center">
+			<tr>
+				<td><img src="assets/images/DayImg/Eds-IceCream.jpeg" alt="Ed's Real Scoop" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/BakedGoods.jpg" alt="Sanremo Bakery and Cafe" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/WandasPie.webp" alt="Wanda's Pie in the sky restaurant" width="300" height="250"></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://www.edsrealscoop.com/">ED'S REAL SCOOP</a></td>
+				<td align="center"><a href="https://www.sanremobakery.com/">Sanremo Bakery and Cafe</a></td>
+				<td align="center"><a href="http://wandaspieinthesky.com/">WandasPieInTheSky</a></td>
+			</tr>
+		</table>
+		<h3>Western</h3>
+		<p>
+			Amidst Toronto's thriving culinary scene, which boasts an eclectic array of cuisines, Western food can sometimes appear 
+			relatively straightforward. If you're craving something both novel and familiar but find yourself unsure of where to start 
+			your journey, fear not. The <abbr title="Toronto Restaurant Directory">TRD</abbr> is here to guide you with a curated selection 
+			of recommendations that promise to satisfy your craving for a fresh dining experience while staying true to the essence of 
+			Western cuisine.
+		</p>
+		<table align="center">
+			<tr>
+				<td><img src="assets/images/DayImg/Eggsmart.webp" alt="EggsmartRestaurant" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/HysSteakhouse.webp" alt="Hy's Steakhouse" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/Burgernator.jpg" alt="The burgernator food" width="300" height="250"></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://eggsmart.com/">EGGSMART</a></td>
+				<td align="center"><a href="https://www.hyssteakhouse.com/">HY'S STEAKHOUSE</a></td>
+				<td align="center"><a href="https://www.theburgernator.com/">THE BURGERNATOR</a></td>
+			</tr>
+		</table>
+		<h3>Chinese</h3>
+		<p>
+			Variety is the spice of life, and in a multicultural city like Toronto, the culinary landscape thrives on diversity. 
+			Chinese cuisine unquestionably holds a cherished place in this rich tapestry of culinary experiences. While the city boasts 
+			a multitude of Chinese food establishments, we'd like to highlight some of our personal favorites—ones that bring a unique 
+			twist to this beloved cuisine while staying true to the flavors we all cherish. These restaurants offer a fresh perspective on 
+			Chinese food, making them stand out in a city known for its culinary delights.
+		</p>
+		<table align="center">
+			<tr>
+				<td><img src="assets/images/DayImg/Dumplings.jpg" alt="Mother's Dumplings" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/MandarinBuffet.jpg" alt="Mandarin restaurant" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/Food-IMG.jpg" alt="R&D restaurant" width="300" height="250"></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://mothersdumplings.com/">MOTHER'S DUMPLINGS</a></td>
+				<td align="center"><a href="https://www.mandarinrestaurant.com/">MANDARIN RESTAURANT</a></td>
+				<td align="center"><a href="https://www.rdspadina.com/">R&amp;D</a></td>
+			</tr>
+		</table>
+		<h3>Pizza</h3>
+		<p>
+			Amidst the abundance of dining options, we'd like to draw your attention to the comforting familiarity of pizzeria franchises. 
+			While numerous fast-food choices are readily available, there are still some dine-in pizzerias that you might not have had the 
+			chance to explore yet. Allow us to introduce you to a selection of these diverse and delightful options, offering a unique dining 
+			experience that goes beyond the usual fast-food fare.
+		</p>
+		<table align="center">
+			<tr>
+				<td><img src="assets/images/DayImg/PizzaLoaded.jpg" alt="Goodfella's pizza" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/LibrettoPizza.jpg" alt="Pizzeria Libretto" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/BlazePizza.jpg" alt="Blaze pizza restaurant" width="300" height="250"></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://www.goodfellaspizza.ca/">GOODFELLA'S WOOD OVEN PIZZA</a></td>
+				<td align="center"><a href="https://www.pizzerialibretto.com/">PIZZERIA LIBRETTO</a></td>
+				<td align="center"><a href="https://locations.blazepizza.com/on/toronto/10-dundas-st.-east?utm_source=extnet&utm_medium=yext">BLAZE PIZZA</a></td>
+			</tr>
+		</table>
+		<h3>Cafe</h3>
+		<p>
+			Cafes offer a distinct and cherished experience for patrons, contributing significantly to the vibrancy of cities, much like 
+			their fast-food counterparts. Whether you seek a quick pick-me-up to fuel your busy day or a cozy environment for leisurely chats 
+			with friends, cafes hold a special place in the heart of city life. The <abbr title="Toronto Restaurant Directory">TRD</abbr> is 
+			delighted to present you with a curated selection of our favorite cafes, each offering its unique charm and the perfect setting 
+			for your needs.
+		</p>
+		<table align="center">
+			<tr>
+				<td><img src="assets/images/DayImg/Balzacs.jpg" alt="Balzac's cafe" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/CoffeeCookie.jpg" alt="Fahrenheit coffee" width="300" height="250"></td>
+				<td><img src="assets/images/DayImg/TimHortonsRestaurant.webp" alt="Tim Hortons" width="300" height="250"></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="https://balzacs.com/pages/distillery-district">BALZAC'S</a></td>
+				<td align="center"><a href="http://www.fahrenheitcoffee.com/">FAHRENHEIT COFFEE</a></td>
+				<td align="center"><a href="https://www.timhortons.ca/?_gl=1*1m1k26m*_gcl_au*NDUwMDU8NDMyLjE2OTY4ODg1M">TIM HORTONS</a></td>
+			</tr>
+		</table>
+	</main>
+	<footer>
+		<!-- Footer Goes Here -->
+	</footer>
 </body>
-<footer>
-	<!--Footer Goes Here-->
-</footer>
 </html>
-
-
-	

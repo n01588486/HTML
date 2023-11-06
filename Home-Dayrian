@@ -17,6 +17,7 @@
 		header {
 			background: url(assets/images/DayImg/stars.png);
 		}
+		
 		header img {
 			padding: 10px 0px 0px 0px;
 		}
@@ -46,7 +47,7 @@
             list-style-type: none;
             display: inline-block;
             padding: 16px;
-            margin-top: -10px;
+            margin-top: -18px;
         }
 		
 		section {
