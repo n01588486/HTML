@@ -14,12 +14,12 @@ th{font-size: 28px;}
 </style>
 <h1><b><u> Job Information/Listings </u></b></h1> 
 <nav align="center">
-    <a href="home.html">Home</a>
+    <a href="HomePage.html">Home</a>
     <a href="Job.html">Job</a>
     <a href="index.html">SignUp</a>
     <a href="Reviews.html">Review</a>
-    <a href="HomePage.html">Locations</a>
-    <a href="cityResurants.html">CityRestaurants</a>
+    <a href="Location.html">Locations</a>
+    <a href="Places.html">Places</a>
     <a href ="Preferences.html">Preferences</a>
 </nav>
 <br>
@@ -153,3 +153,4 @@ What Resturant would you like to Apply to?<br>
 <input type="file" id="myfile" name="myfile">
 <input type="submit" > <input type="reset"><br>
 </form>
+</html>
