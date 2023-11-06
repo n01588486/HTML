@@ -1,0 +1,145 @@
+
+<!doctype html>
+ <html lang = "en">
+ <head>
+ <title> Reviews/Critics Page 5 </title>
+ </head>
+<style>
+h1 {text-align: center;}
+h3 {text-align: center;}
+table, th, td {border:2px solid black;}
+
+button {
+color:white;
+}
+p{text-align: right;}
+th{
+font-size: 28px;
+}
+</style>
+<body>
+<form>
+<h1><b><u> Resturant Reviews </u></b></h1> 
+<h3>
+<a href="home.html">Home</a> 
+<a href="Job.html">Jobs </a>
+<a href="index.html">Sign Up</a>
+<a href="Reviews.html">Reviews </a>
+<a href="HomePage.html">Locations</a> 
+<a href="cityResurants.html">City Resturants</a>
+<a href= "Preferences.html">Preferences</a>
+</h3>
+<h1><img src = "assets/images/WeAreHiring.jpg" height ="180px" width = "680px" alt="rating"></h1>
+<hr>
+<hr>
+<table>
+<tr>
+ <th> McDonalds </td>
+ <th> Arby's </td>
+ <th> Burger King </td>
+<tr>
+<tr> 
+ <td> <img src = "assets/images/McDonaldsBuild.jpg" height ="360px" width = "480px" alt="McDonalds"> </td>
+ <td> <img src = "assets/images/Arbys.jpg" height ="360px" width = "480px" alt="Arby's"> </td>
+ <td> <img src = "assets/images/BurgerKingBuild.jpg" height ="360px" width = "480px" alt="Burger"> </td>
+</tr>
+<tr>
+<td>
+<blockquote>
+&ldquo;Indulging in the Spicy Grilled Chicken Sandwich at McDonald's was a culinary adventure. The first bite into the tender, juicy chicken revealed a burst of flavors that danced harmoniously on my palate. The spice level was just right – enough to excite my taste buds without overpowering the dish. The sandwich's crispy texture added an enjoyable contrast, making each bite a delightful journey of sensations.If you're in the mood for a satisfying, zesty meal, don't miss out on this gem amidst the fast-food offerings.&rdquo;<br>
+- Jineesh
+</blockquote>
+</td>
+<td>
+<blockquote>
+&ldquo;It you want tasty roast beef look no further. The Beef ‘N Cheddar is an all-time favourite. Many other options are truly delightful: Roast Beef ‘N Swiss, Roast Ham ‘N Swiss or the exceptional Chicken Cordon Bleu Sandwich. The food is fresh, tasty and served by pleasant staff. Easy parking just off Circle Drive to enjoy a quality fast meal for modest price.&rdquo;<br>
+- Daluguy
+</blockquote>
+</td>
+<td>
+<blockquote>
+&ldquo;Burger King burgers really do taste flame broiled. There is always some new great tasting type of burger or chicken sandwich to try. You really can't beat their prices & the drive up window seems to go at light speed compared to other places. In years of going here I have only had one instance of my order having something missing or incorrect & I can not say the same for other fast food places. Highly recommend.&rdquo;<br>
+- Nancy
+</blockquote></td>
+</tr>
+<tr>
+<td>
+Did you find this Review Helpful? <button type= "button"; style= "background-color:lime">YES</button><button type= "button" style= "background-color:red">NO</button>
+</td>
+<td>
+Did you find this Review Helpful? <button type= "button"; style= "background-color:lime">YES</button><button type= "button" style= "background-color:red">NO</button>
+</td>
+<td>
+Did you find this Review Helpful? <button type= "button"; style= "background-color:lime">YES</button><button type= "button" style= "background-color:red">NO</button>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+ <th> Olive Garden </td>
+ <th> Mandarin </td>
+ <th> Five Guys </td>
+<tr>
+<hr>
+<tr> 
+ <td> <img src = "assets/images/OliverGarden.jpg" height ="360px" width = "480px" alt="Olive Garden"> </td>
+ <td> <img src = "assets/images/Mandarin.jpg" height ="360px" width = "480px" alt="Mandarin"> </td>
+ <td> <img src = "assets/images/FiveGuys.jpg" height ="360px" width = "480px" alt="Five Guys"> </td>
+</tr>
+<tr>
+<td>
+<blockquote>
+&ldquo;Very accommodating when requesting where to sit as long as there is space available. This visit was during the week and between the business lunch time. Didn’t wait long for the waitress/waiter to arrive at the table. Remember to ask for your free wine tasting (2). Took our order. Everything was tasty and fine with regards to temperature. Portion size was just enough for price paid. With our meal you get a choice of unlimited soup or salad. My advice is for each person to order something different and share. Will definitely return.&rdquo; <br>
+- Robert
+</blockquote>
+</td>
+<td>
+<blockquote>
+&ldquo;Fourteenth of us arrived unexpected, got seated right away, everybody chose the buffet, no complaints at all from the soups to the salads, to the sushi, to the main dishes and of course the desserts, great service, the seniors got there discounts and all in all we where one happy crowd. My Family celebrated a birthday and there was something for everyone. Our server went above and beyond to make it fun and memorable &rdquo;<br>
+- John
+</blockquote>
+</td>
+<td>
+<blockquote>
+&ldquo;Typical Five Guys fare in a spacious and well lit setting. All burgers are good (we had 4 types). Fries are excellent and plentiful. Don't forget the free peanuts. Notable that this location serves delicious milkshakes! Excellent service, a bit pricey but well worth it for the incredible fry’s and burgers. Everyone’s always friendly and you feel at home right away. We will definitely return A+++ &rdquo;<br>
+- Jackson
+</blockquote>
+</td>
+</tr>
+<tr>
+<td>
+Did you find this Review Helpful? <button type= "button"; style= "background-color:lime">YES</button><button type= "button" style= "background-color:red">NO</button>
+</td>
+<td>
+Did you find this Review Helpful? <button type= "button"; style= "background-color:lime">YES</button><button type= "button" style= "background-color:red">NO</button>
+</td>
+<td>
+Did you find this Review Helpful? <button type= "button"; style= "background-color:lime">YES</button><button type= "button" style= "background-color:red">NO</button>
+</td>
+</tr>
+</table>
+<hr>
+<hr>
+<table>
+<tr>
+<td>
+<h2><u> Write your <em>OWN</em> Review</u></h2>
+<label for="email">E-MAIL ADDRESS:</label><br>
+<input type ="email" name="email" id="email" required><br>
+<label for="fname">FIRST NAME:</label><br>
+<input type="text" id="fname" name="fname" required><br>
+<label for="lname">LAST NAME:</label><br>
+<input type="text" id="lname" name="lnamess" required><br>
+What Resturant are you writing a review for?<br>
+<input type="text" id="restu" name = "restu" maxlength="30" size="35"><br>
+<textarea id="review" name="review" rows="20" cols="100"> </textarea><br>
+<input type="submit" > <input type="reset"><br> </td>
+<td>
+<img src = "assets/images/Reviewing.jpg" height ="460px" width = "680px" alt="rating"> </td>
+</tr>
+</table>
+<hr>
+</form>
+</body>
+</html>
