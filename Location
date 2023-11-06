@@ -65,15 +65,15 @@
 </head>
 <body>
     <div class="menu">
-        <ul>
-            <li><img src="assets/icons/icon_home.png" alt=""><span style="padding: 10px;">Home</span></li>
-            <li><img src="assets/icons/search.png" alt=""> <span>Find Resturant</span></li>
-			<li><a href="Preferences.html" style="color:rgb(255, 255, 255);">Prefernces</a></li>
-            <li><a href="Jobs.html" style="color:rgb(255, 255, 255);">Jobs</a></li>
-            <li><a href="HomePage.html" style="color:rgb(255, 255, 255);">Home</a></li>
-            <li><a href="Reviews.html" style="color:rgb(255, 255, 255);">Reviews</a></li>
-            <li><a href="SignUp.html" style="color:rgb(255, 255, 255);"><button>SignUp</button></a></li>
-        </ul>
+		<ul>
+			<li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
+			<li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
+			<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
+			<li><a href="Location.html" style="color: white;">Locations</a></li>
+			<li><a href="Job.html" style="color: white;">Jobs</a></li>
+			<li><a href="Reviews.html" style="color: white;">Reviews</a></li>
+			<li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
+		</ul>
     </div>
 
     <div class="body">
@@ -83,7 +83,7 @@
                 <img src="https://www.benefitscanada.com/wp-content/uploads/sites/7/2021/01/143775420_s.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityRestaurants.html"><center>Toronto</center></a></h2>
+                <h2><a href="Places.html"><center>Toronto</center></a></h2>
             </div>
         </div>
         <div class="card">
@@ -91,7 +91,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Humber_Bay_Park_East2.JPG" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityRestaurants.html"><center>Etobicoke</center></a></h2>
+                <h2><a href="Places.html"><center>Etobicoke</center></a></h2>
             </div>
         </div>
         <div class="card">
@@ -99,7 +99,7 @@
                 <img src="https://www.mississauga.ca/wp-content/uploads/2021/06/16140650/EDO2-328x219.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityRestaurants.html"><center>Mississauga</center></a></h2>
+                <h2><a href="Places.html"><center>Mississauga</center></a></h2>
             </div>
         </div>
         <div class="card">
@@ -107,7 +107,7 @@
                 <img src="https://c8.alamy.com/comp/F59CRE/stock-photo-aerial-view-of-north-york-from-highway-401-and-yonge-street-F59CRE.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityRestaurants.html"><center>North York</center></a></h2>
+                <h2><a href="Places.html"><center>North York</center></a></h2>
             </div>
         </div>
         <div class="card">
@@ -115,7 +115,7 @@
                 <img src="https://i.pinimg.com/originals/80/2c/a0/802ca09e168df336d202d357e689bbc9.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityRestaurants.html"><center>Scarborough</center></a></h2>
+                <h2><a href="Places.html"><center>Scarborough</center></a></h2>
             </div>
         </div>
     </div>

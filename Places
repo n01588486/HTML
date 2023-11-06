@@ -81,14 +81,14 @@
 <body>
     <div class="menu">
         <ul>
-            <li><img src="assets/icons/icon_home.png" alt=""><span style="padding: 10px;">Home</span></li>
-            <li><img src="assets/icons/search.png" alt=""> <span>Find Resturant</span></li>
-			<li><a href="Preferences.html" style="color:rgb(255, 255, 255);">Prefernces</a></li>
-            <li><a href="Jobs.html" style="color:rgb(255, 255, 255);">Jobs</a></li>
-            <li><a href="HomePage.html" style="color:rgb(255, 255, 255);">Home</a></li>
-            <li><a href="Reviews.html" style="color:rgb(255, 255, 255);">Reviews</a></li>
-            <li><a href="SignUp.html" style="color:rgb(255, 255, 255);"><button>SignUp</button></a></li>
-        </ul>
+			<li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
+			<li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
+			<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
+			<li><a href="Location.html" style="color: white;">Locations</a></li>
+			<li><a href="Job.html" style="color: white;">Jobs</a></li>
+			<li><a href="Reviews.html" style="color: white;">Reviews</a></li>
+			<li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
+		</ul>
     </div>
 
     <div class="body">
