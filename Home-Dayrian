@@ -91,6 +91,10 @@
             line-height: 1.5;
         }
 		
+		#highlight {
+			background-color: lightgreen;
+		}
+		
 		table {
 			background-color: rgba(28, 27, 27, 0.902);
 			border-spacing: 30px;
@@ -160,7 +164,7 @@
         </ul>
     </section>
 	<hr>
-    <section>
+    <section id= "highlight">
         <h3>Highlighted Restaurants</h3>
         <p>
             The highlighted restaurant is a restaurant that has uniqueness to itself and continues to push itself into the food
