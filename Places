@@ -1,10 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4Star | Home</title>
+    <title>4Star | Places</title>
+	<link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
+
     <style>
         
         .menu
@@ -80,13 +81,14 @@
 <body>
     <div class="menu">
         <ul>
-            <li><img src="assets/icons/icon_home.png" alt="" ><span style="padding: 10px;">Home</span></li>
-            <li><img src="assets/icons/search.png" alt=""> <span>Find Resturant</span></li>
-            <li><a href="Job.html" style="color:rgb(255, 255, 255);">Jobs</a></li>
-            <li><a href="Reviews.html" style="color:white;">Reviews</a></li>
-            <li><a href="HomePage.html" style="color:rgb(255, 255, 255);">Direction</a></li>
-            <li><a href="index.html" style="color:white;"><button>SignUp</button></a></li>
-        </ul>
+			<li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
+			<li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
+			<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
+			<li><a href="Location.html" style="color: white;">Locations</a></li>
+			<li><a href="Job.html" style="color: white;">Jobs</a></li>
+			<li><a href="Reviews.html" style="color: white;">Reviews</a></li>
+			<li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
+		</ul>
     </div>
 
     <div class="body">
@@ -108,7 +110,7 @@
         </div>
         <div class="card">
             <div class="header">
-                <img src="https://media.blogto.com/articles/20190712-timhortons.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70" alt="">
+                <img src="https://media.blogto.com/articles/20190712-timhortons.jpg?w=2048&amp;cmd=resize_then_crop&amp;height=1365&amp;quality=70" alt="">
             </div>
             <div class="card-body">
                 <h2><a href="https://www.timhortons.ca/?lang=en">Tim Hortons</a></h2>
@@ -127,7 +129,7 @@
                 <h2><a href="https://www.arbys.com">Arbys</a></h2>
                 <h4 style="color:gray"><img src="assets/icons/location.png" style="height: 24px;" alt="location">North york,ontario ...</h4>
                 <hr>
-                <p>Arby's is an American fast food sandwich restaurant chain with more than 3,300 restaurants system wide and third in terms of revenue. In October 2017, Food & Wine called Arby's "America's second largest sandwich chain". Arby's is the flagship property of Inspire Brands, the renamed Arby's Restaurant Group, Inc.</p>
+                <p>Arby's is an American fast food sandwich restaurant chain with more than 3,300 restaurants system wide and third in terms of revenue. In October 2017, Food &amp; Wine called Arby's "America's second largest sandwich chain". Arby's is the flagship property of Inspire Brands, the renamed Arby's Restaurant Group, Inc.</p>
                 <hr>
                 <a href="https://textilemuseum.ca/visit/" target="_blank"><button>Visit Website</button></a>
             </div>
@@ -160,5 +162,5 @@
         </div>
     </div>
 
-</body>
-</html>
+
+</body></html>

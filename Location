@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4Star | Home</title>
+    <title>4Star | Location</title>
+	<link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
     <style>
         .body
         {
@@ -65,59 +65,60 @@
 </head>
 <body>
     <div class="menu">
-        <ul>
-            <li><img src="assets/icons/icon_home.png" alt="" ><span style="padding: 10px;">Home</span></li>
-            <li><img src="assets/icons/search.png" alt=""> <span>Find Resturant</span></li>
-            <li><a href="Job.html" style="color:rgb(255, 255, 255);">Jobs</a></li>
-            <li><a href="HomePage.html" style="color:rgb(255, 255, 255);">Direction</a></li>
-            <li><a href="Reviews.html" style="color:rgb(255, 255, 255);">Reviews</a></li>
-            <li><a href="index.html" style="color:rgb(255, 255, 255);"><button>SignUp</button></a></li>
-        </ul>
+		<ul>
+			<li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
+			<li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
+			<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
+			<li><a href="Location.html" style="color: white;">Locations</a></li>
+			<li><a href="Job.html" style="color: white;">Jobs</a></li>
+			<li><a href="Reviews.html" style="color: white;">Reviews</a></li>
+			<li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
+		</ul>
     </div>
 
     <div class="body">
 
         <div class="card">
             <div class="header">
-                <img src="assets/images/Ibrah/images.jpeg" alt="">
+                <img src="https://www.benefitscanada.com/wp-content/uploads/sites/7/2021/01/143775420_s.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityResurants.html"><center>Toronto</center></a></h2>
+                <h2><a href="Places.html"><center>Toronto</center></a></h2>
             </div>
         </div>
         <div class="card">
             <div class="header">
-                <img src="assets/images/Ibrah/unknown.jpeg" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Humber_Bay_Park_East2.JPG" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityResurants.html"><center>Etobicoke</center></a></h2>
+                <h2><a href="Places.html"><center>Etobicoke</center></a></h2>
             </div>
         </div>
         <div class="card">
             <div class="header">
-                <img src="assets/images/Ibrah/EDO2-328x219.jpg" alt="">
+                <img src="https://www.mississauga.ca/wp-content/uploads/2021/06/16140650/EDO2-328x219.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityResurants.html"><center>Mississauga</center></a></h2>
+                <h2><a href="Places.html"><center>Mississauga</center></a></h2>
             </div>
         </div>
         <div class="card">
             <div class="header">
-                <img src="assets/images/Ibrah/NewYork.png" alt="">
+                <img src="https://c8.alamy.com/comp/F59CRE/stock-photo-aerial-view-of-north-york-from-highway-401-and-yonge-street-F59CRE.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityResurants.html"><center>North York</center></a></h2>
+                <h2><a href="Places.html"><center>North York</center></a></h2>
             </div>
         </div>
         <div class="card">
             <div class="header">
-                <img src="assets/images/Ibrah/Scarborough_Ontario.webp" alt="">
+                <img src="https://i.pinimg.com/originals/80/2c/a0/802ca09e168df336d202d357e689bbc9.jpg" alt="">
             </div>
             <div class="card-body">
-                <h2><a href="cityResurants.html"><center>Scarborough</center></a></h2>
+                <h2><a href="Places.html"><center>Scarborough</center></a></h2>
             </div>
         </div>
     </div>
 
-</body>
-</html>
+
+</body></html>

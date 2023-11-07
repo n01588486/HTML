@@ -1,6 +1,6 @@
 <html lang = "en">
  <head>
- <title> Job Info/Listings Page 6 </title>
+ <title>4Star | Jobs</title>
  </head>
 <form>
 <style>
@@ -82,12 +82,12 @@ body {
 <h1><b><u> Job Information/Listings </u></b></h1> 
 <nav align="center">
     <div class="pageLinks">
-    <a href="home.html">Home</a>
+    <a href="HomePage.html">Home</a>
     <a href="Job.html">Job</a>
     <a href="index.html">SignUp</a>
     <a href="Reviews.html">Review</a>
-    <a href="HomePage.html">Locations</a>
-    <a href="cityResurants.html">CityRestaurants</a>
+    <a href="Location.html">Locations</a>
+    <a href="Places.html">Places</a>
     <a href ="Preferences.html">Preferences</a>
 </div>
 </nav>
@@ -226,3 +226,5 @@ What Resturant would you like to Apply to?<br>
 <input type="reset" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;"> <br>
 </section>
 </form>
+</html>
+
