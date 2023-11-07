@@ -6,48 +6,48 @@
     <title>4Star | HomePage</title>
     <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
     <style>
-		html {
-			border: solid;
-			border-width: 5px 5px 0px 5px;
-		}
-		
+        html {
+            border: solid;
+            border-width: 5px 5px 0px 5px;
+        }
+        
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin: 0;
-			padding: 0;
-			background: radial-gradient(circle, white, lightgray);
+            padding: 0;
+            background: radial-gradient(circle, white, lightgray);
         }
-		
-		header {
-			background: url(assets/images/DayImg/stars.png);
-		}
-		
-		#city {
-			display: block;
-			margin: 0 auto;
-		}
-		
-		header img {
-			padding: 10px 0px 0px 0px;
-		}
-		
+        
+        header {
+            background: url("assets/images/DayImg/stars.png");
+        }
+        
+        #city {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        header img {
+            padding: 10px 0px 0px 0px;
+        }
+        
         h1 {
             border: solid;
-			padding: 10px;
-			margin: 0;
+            padding: 10px;
+            margin: 0;
             color: white;
             border-color: black;
             background-color: black;
             text-shadow: 4px 4px 7px green;
             text-align: center;
         }
-		
+        
         .menu {
             height: 60px;
             background-color: #e5a709;
             color: white;
             font-weight: bold;
-			margin-top: -22px;
+            margin-top: -22px;
         }
 
         .menu ul {
@@ -60,64 +60,112 @@
             padding: 16px;
             margin-top: -18px;
         }
-		
-		a {
-			text-decoration: none;
-		}
-		
-		section {
-			padding: 15px;
-		}
-		
-		#intro p:first-of-type::first-letter { 
-			font-size: 200%;
-			font-weight: bold;
-		}
-		
-		#stalls {
-			border-radius: 50%;
-			padding-left: 50px;
-		}
-		
-		#food {
-			border: double;
-			border-width: 3px;
-			border-color: orange;
-			border-radius: 10px;
-		}
+        
+        a {
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 15px;
+        }
+        
+        #intro p:first-of-type::first-letter { 
+            font-size: 200%;
+            font-weight: bold;
+        }
+        
+        #stalls {
+            border-radius: 50%;
+            padding-left: 50px;
+        }
+        
+        #food {
+            border: double 3px orange;
+            border-radius: 10px;
+        }
 
         p {
             text-indent: 50px;
             line-height: 1.5;
         }
-		
-		#highlight {
-			background-color: lightgreen;
-		}
-		
-		table {
-			background-color: rgba(28, 27, 27, 0.902);
-			border-spacing: 30px;
-			border-radius: 10%;
-			color: white;
-		}
-		
-		td {
-			text-indent: 50px;
+        
+        #highlight {
+            background-color: lightgreen;
+        }
+        
+        table {
+            background-color: rgba(28, 27, 27, 0.902);
+            border-spacing: 30px;
+            border-radius: 10%;
+            color: white;
+        }
+        
+        td {
+            text-indent: 50px;
             line-height: 1.5;
-		}
-		
-		td h2 {
-			font-size: 200%;
-			text-shadow: 4px 4px 7px blue;
-			
-		}
-		
-		td img {
-			border: solid;
-			border-radius: 8px;
-		}
+        }
+        
+        td h2 {
+            font-size: 200%;
+            text-shadow: 4px 4px 7px blue;
+        }
+        
+        td img {
+            border: solid 1px;
+            border-radius: 8px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
 
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-logo img {
+            margin-right: 10px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-contact {
+            padding-right: 20px;
+        }
+
+        .footer-contact p {
+            margin: 0;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        footer address {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -127,33 +175,33 @@
             <ul>
                 <li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
                 <li><img src="assets/icons/search.png" alt=""> <span>Find Restaurant</span></li>
-				<li><a href="Preferences.html" style="color: white;">Preferences</a></li>
+                <li><a href="Preferences.html" style="color: white;">Preferences</a></li>
                 <li><a href="Location.html" style="color: white;">Locations</a></li>
                 <li><a href="Job.html" style="color: white;">Jobs</a></li>
                 <li><a href="Reviews.html" style="color: white;">Reviews</a></li>
                 <li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
             </ul>
-		</div>
-		<img id="city" src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250" align="center">
-	</header>
+        </div>
+        <img id="city" src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250" align="center">
+    </header>
     <section id="intro">
         <h3>Your Culinary Guide in Toronto</h3>
         <p>
-            Toronto, which is frequently praised as a model of multiculturalism, is home to a diverse array of culinary
-            traditions from around the world that are all crammed into a very limited geographic space. Foodies and newbies
-            to the culinary scene can start an intriguing culinary journey in this city. That's why
+            Toronto, frequently praised as a model of multiculturalism, is home to a diverse array of culinary
+            traditions from around the world, all crammed into a very limited geographic space. Foodies and newcomers
+            to the culinary scene can embark on an intriguing culinary journey in this city. That's why
             <abbr title="Toronto Restaurant Directory">TRD</abbr> has made it our mission to establish a central hub for anyone
-            looking to explore and navigate Toronto's diverse eating scene. We're here to help you find the best dining experiences
-            the city has to offer, whether you're a seasoned food fan or just getting started in this exciting culinary world.
+            looking to explore and navigate Toronto's diverse dining scene. We're here to help you discover the best dining experiences
+            the city has to offer, whether you're a seasoned food enthusiast or just starting in this exciting culinary world.
         </p>
 
         <img id="stalls" src="assets/images/DayImg/StreetFair.jpg" alt="Food Stalls" width="350" height="250">
 
         <p>
-            You'll find a wealth of directories spanning a diverse range of culinary disciplines when you visit (website title).
-            Our objective is to give you a smooth and simple platform to explore Toronto's diverse food scene. Our directories will
+            You'll find a wealth of directories spanning a diverse range of culinary disciplines when you visit our website.
+            Our goal is to provide you with a smooth and simple platform to explore Toronto's diverse food scene. Our directories will
             be your go-to source for discovering the ideal dining experience in this multicultural city, whether you're craving a
-            particular cuisine, hunting for hidden treasures, or simply want to try something new.
+            particular cuisine, searching for hidden gems, or simply looking to try something new.
         </p>
 
         <img id="food" src="assets/images/DayImg/Waffles.webp" alt="Waffles" width="300" height="200" align="right">
@@ -163,21 +211,19 @@
             <li>Specialties</li>
         </ul>
     </section>
-	<hr>
-    <section id= "highlight">
+    <hr>
+    <section id="highlight">
         <h3>Highlighted Restaurants</h3>
         <p>
-            The highlighted restaurant is a restaurant that has uniqueness to itself and continues to push itself into the food
-            scene either as an up-and-coming or a seasoned restaurant that deserves to be featured. We hope to allow less informed
-            people of the multitude of food scenes that they can hopefully get to experience and decide for themselves if it is
-            getting the recognition it deserves.
+            The highlighted restaurant is a unique establishment that continues to make its mark in the food
+            scene, whether as an up-and-coming or a seasoned restaurant deserving of recognition. We aim to introduce people to the diverse world
+            of food scenes, hoping they can experience and judge for themselves if it deserves the recognition.
         </p>
         <table align="center">
             <tr>
                 <td><h2>McDonald's</h2></td>
-                <td><img src="assets/images/DayImg/McDonaldsRestaurant.jpg"
-                    width="400" height="170"></td>
-                <td>McDonald's is undoubtedly a standout in the fast-food culinary landscape, and we firmly believe it deserves recognition and
+                <td><img src="assets/images/DayImg/McDonaldsRestaurant.jpg" width="400" height="170"></td>
+                <td>McDonald's is undoubtedly a standout in the fast-food culinary landscape, deserving recognition and
                     celebration for its extensive menu offerings and unwavering consistency. While McDonald's is a household name, it remains a
                     pioneer in the industry by continually introducing innovative menu items. Its wide range of choices caters to diverse tastes,
                     making it an ideal choice for virtually anyone. Given these factors, we are proud to showcase McDonald's as a highlighted
@@ -195,8 +241,7 @@
             </tr>
             <tr>
                 <td><h2>Pizza Hut</h2></td>
-                <td><img src="assets/images/DayImg/PizzaHutRestaurant.jpg"
-                    alt="Pizza Hut Restaurant" width="400" height="170"></td>
+                <td><img src="assets/images/DayImg/PizzaHutRestaurant.jpg" alt="Pizza Hut Restaurant" width="400" height="170"></td>
                 <td>Pizza Hut stands out as a pizzeria that remains committed to the concept of family dining, diverging from the typical fast-food
                     approach. It steadfastly maintains its unique identity, setting itself apart from other similar establishments. Pizza Hut is the
                     natural choice for families seeking a dining experience that combines the pleasures of restaurant dining with the delectable taste
@@ -206,7 +251,31 @@
             </tr>
         </table>
     </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/icons/4starBall.png" alt="4Star Logo" width="32" height="32">
+                <span>4Star | Toronto Restaurant Directory</span>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="Preferences.html">Preferences</a></li>
+                    <li><a href="Location.html">Locations</a></li>
+                    <li><a href="Job.html">Jobs</a></li>
+                    <li><a href="Reviews.html">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Contact</p>
+                <address>
+                    123 Main Street<br>
+                    Toronto, ON M9W 5L7<br>
+                    Email: info@4star.com<br>
+                    Phone: (123) 456-7890
+                </address>
+            </div>
+        </div>
+    </footer>
 </body>
-<footer>
-    <!-- Footer Goes Here -->
-</footer>
+</html>
