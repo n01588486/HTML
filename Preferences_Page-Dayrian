@@ -75,6 +75,58 @@
 		td img {
 			border-radius: 8px;
 		}
+		
+		footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-logo img {
+            margin-right: 10px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-contact {
+            padding-right: 20px;
+        }
+
+        .footer-contact p {
+            margin: 0;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        footer address {
+            margin-top: 10px;
+        }
 	</style>
 </head>
 <body>
@@ -221,8 +273,31 @@
 			</tr>
 		</table>
 	</main>
-	<footer>
-		<!-- Footer Goes Here -->
-	</footer>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/icons/4starBall.png" alt="4Star Logo" width="32" height="32">
+                <span>4Star | Toronto Restaurant Directory</span>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="Preferences.html">Preferences</a></li>
+                    <li><a href="Location.html">Locations</a></li>
+                    <li><a href="Job.html">Jobs</a></li>
+                    <li><a href="Reviews.html">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <p>Contact</p>
+                <address>
+                    123 Main Street<br>
+                    Toronto, ON M9W 5L7<br>
+                    Email: info@4star.com<br>
+                    Phone: (123) 456-7890
+                </address>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
