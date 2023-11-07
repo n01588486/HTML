@@ -55,6 +55,7 @@
             border-spacing: 30px;
             border-radius: 10%;
             color: white;
+			margin: 0 auto;
         }
         
         td {
@@ -87,7 +88,7 @@
                 <li><a href="index.html" style="color: white;"><button>Sign Up</button></a></li>
             </ul>
         </div>
-        <img id="city" src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250" align="center">
+        <img id="city" src="assets/images/DayImg/torontoskyline.png" alt="City Landscape" width="1180" height="250">
     </header>
     <section id="intro">
         <h3>Your Culinary Guide in Toronto</h3>
@@ -124,10 +125,10 @@
             scene, whether as an up-and-coming or a seasoned restaurant deserving of recognition. We aim to introduce people to the diverse world
             of food scenes, hoping they can experience and judge for themselves if it deserves the recognition.
         </p>
-        <table align="center">
+        <table>
             <tr>
                 <td><h2>McDonald's</h2></td>
-                <td><img src="assets/images/DayImg/McDonaldsRestaurant.jpg" width="400" height="170"></td>
+                <td><img src="assets/images/DayImg/McDonaldsRestaurant.jpg" alt="McDonalds Restaurant" width="400" height="170"></td>
                 <td>McDonald's is undoubtedly a standout in the fast-food culinary landscape, deserving recognition and
                     celebration for its extensive menu offerings and unwavering consistency. While McDonald's is a household name, it remains a
                     pioneer in the industry by continually introducing innovative menu items. Its wide range of choices caters to diverse tastes,
