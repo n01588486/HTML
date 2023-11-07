@@ -10,8 +10,13 @@
 		#head {
 			background-color: white;
 			border-radius: 5px;
+			border-spacing: 10px;
 		}
-
+		
+		table {
+			margin: 0 auto;
+		}
+		
 		.menu li {
 			list-style-type: none;
 			display: inline-block;
@@ -29,6 +34,10 @@
 			font-weight: bold;
 		}
 		
+		td {
+			text-align: center;
+		}
+		
 		td img {
 			border-radius: 8px;
 		}
@@ -36,7 +45,7 @@
 </head>
 <body>
 	<header>
-		<h1 align="center">TORONTO RESTAURANT DIRECTORY</h1>
+		<h1>TORONTO RESTAURANT DIRECTORY</h1>
 		<div class="menu">
 			<ul>
 				<li><img src="assets/icons/icon_home.png" alt="home icon"><a href="HomePage.html" style="color: white;">Home</a></li>
@@ -52,7 +61,7 @@
 	<main>
 		<h2>Preferences</h2>
 		<hr>
-		<table id="head" align="center" cellspacing="10">
+		<table id="head">
 			<tr>
 				<td><img src="assets/images/DayImg/Salad.jpg" alt="Salad" width="210" height="200"></td>
 				<td><img src="assets/images/DayImg/Sushi-IMG.jpg" alt="Sushi" width="210" height="200"></td>
@@ -68,16 +77,16 @@
 			To address this, we'd like to offer a few recommendations that we believe will satisfy a wide range of palates 
 			when searching for exceptional vegetarian meals.
 		</p>
-		<table align="center">
+		<table>
 			<tr>
 				<td><img src="assets/images/DayImg/IndoorRestaurant.jpg" alt="PlantaRestaurant" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/RestaurantFood.jpg" alt="Buddha's Vegan Restaurant" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/RosalindaRestaurant.webp" alt="Rosalinda Restaurant" width="300" height="250"></td>
 			</tr>
 			<tr>
-				<td align="center"><a href="https://www.plantarestaurants.com/?utm_medium=website&utm_source=nomsmag">PLANTA</a></td>
-				<td align="center"><a href="https://www.buddharestaurant.ca/?utm_medium=website&utm_source=nomsmag">BUDDHA</a></td>
-				<td align="center"><a href="https://www.rosalindarestaurant.com/">ROSALINDA</a></td>
+				<td><a href="https://www.plantarestaurants.com/?utm_medium=website&utm_source=nomsmag">PLANTA</a></td>
+				<td><a href="https://www.buddharestaurant.ca/?utm_medium=website&utm_source=nomsmag">BUDDHA</a></td>
+				<td><a href="https://www.rosalindarestaurant.com/">ROSALINDA</a></td>
 			</tr>
 		</table>
 		<h3>Dessert</h3>
@@ -86,16 +95,16 @@
 			an extra layer of enjoyment to your experience. We've curated a list of places that not only promise to satiate your 
 			sweet tooth but also offer a unique and memorable dessert experience.
 		</p>
-		<table align="center">
+		<table>
 			<tr>
 				<td><img src="assets/images/DayImg/Eds-IceCream.jpeg" alt="Ed's Real Scoop" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/BakedGoods.jpg" alt="Sanremo Bakery and Cafe" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/WandasPie.webp" alt="Wanda's Pie in the sky restaurant" width="300" height="250"></td>
 			</tr>
 			<tr>
-				<td align="center"><a href="https://www.edsrealscoop.com/">ED'S REAL SCOOP</a></td>
-				<td align="center"><a href="https://www.sanremobakery.com/">Sanremo Bakery and Cafe</a></td>
-				<td align="center"><a href="http://wandaspieinthesky.com/">WandasPieInTheSky</a></td>
+				<td><a href="https://www.edsrealscoop.com/">ED'S REAL SCOOP</a></td>
+				<td><a href="https://www.sanremobakery.com/">Sanremo Bakery and Cafe</a></td>
+				<td><a href="http://wandaspieinthesky.com/">WandasPieInTheSky</a></td>
 			</tr>
 		</table>
 		<h3>Western</h3>
@@ -106,16 +115,16 @@
 			of recommendations that promise to satisfy your craving for a fresh dining experience while staying true to the essence of 
 			Western cuisine.
 		</p>
-		<table align="center">
+		<table>
 			<tr>
 				<td><img src="assets/images/DayImg/Eggsmart.webp" alt="EggsmartRestaurant" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/HysSteakhouse.webp" alt="Hy's Steakhouse" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/Burgernator.jpg" alt="The burgernator food" width="300" height="250"></td>
 			</tr>
 			<tr>
-				<td align="center"><a href="https://eggsmart.com/">EGGSMART</a></td>
-				<td align="center"><a href="https://www.hyssteakhouse.com/">HY'S STEAKHOUSE</a></td>
-				<td align="center"><a href="https://www.theburgernator.com/">THE BURGERNATOR</a></td>
+				<td><a href="https://eggsmart.com/">EGGSMART</a></td>
+				<td><a href="https://www.hyssteakhouse.com/">HY'S STEAKHOUSE</a></td>
+				<td><a href="https://www.theburgernator.com/">THE BURGERNATOR</a></td>
 			</tr>
 		</table>
 		<h3>Chinese</h3>
@@ -126,16 +135,16 @@
 			twist to this beloved cuisine while staying true to the flavors we all cherish. These restaurants offer a fresh perspective on 
 			Chinese food, making them stand out in a city known for its culinary delights.
 		</p>
-		<table align="center">
+		<table>
 			<tr>
 				<td><img src="assets/images/DayImg/Dumplings.jpg" alt="Mother's Dumplings" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/MandarinBuffet.jpg" alt="Mandarin restaurant" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/Food-IMG.jpg" alt="R&D restaurant" width="300" height="250"></td>
 			</tr>
 			<tr>
-				<td align="center"><a href="https://mothersdumplings.com/">MOTHER'S DUMPLINGS</a></td>
-				<td align="center"><a href="https://www.mandarinrestaurant.com/">MANDARIN RESTAURANT</a></td>
-				<td align="center"><a href="https://www.rdspadina.com/">R&amp;D</a></td>
+				<td><a href="https://mothersdumplings.com/">MOTHER'S DUMPLINGS</a></td>
+				<td><a href="https://www.mandarinrestaurant.com/">MANDARIN RESTAURANT</a></td>
+				<td><a href="https://www.rdspadina.com/">R&amp;D</a></td>
 			</tr>
 		</table>
 		<h3>Pizza</h3>
@@ -145,16 +154,16 @@
 			chance to explore yet. Allow us to introduce you to a selection of these diverse and delightful options, offering a unique dining 
 			experience that goes beyond the usual fast-food fare.
 		</p>
-		<table align="center">
+		<table>
 			<tr>
 				<td><img src="assets/images/DayImg/PizzaLoaded.jpg" alt="Goodfella's pizza" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/LibrettoPizza.jpg" alt="Pizzeria Libretto" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/BlazePizza.jpg" alt="Blaze pizza restaurant" width="300" height="250"></td>
 			</tr>
 			<tr>
-				<td align="center"><a href="https://www.goodfellaspizza.ca/">GOODFELLA'S WOOD OVEN PIZZA</a></td>
-				<td align="center"><a href="https://www.pizzerialibretto.com/">PIZZERIA LIBRETTO</a></td>
-				<td align="center"><a href="https://locations.blazepizza.com/on/toronto/10-dundas-st.-east?utm_source=extnet&utm_medium=yext">BLAZE PIZZA</a></td>
+				<td><a href="https://www.goodfellaspizza.ca/">GOODFELLA'S WOOD OVEN PIZZA</a></td>
+				<td><a href="https://www.pizzerialibretto.com/">PIZZERIA LIBRETTO</a></td>
+				<td><a href="https://locations.blazepizza.com/on/toronto/10-dundas-st.-east?utm_source=extnet&utm_medium=yext">BLAZE PIZZA</a></td>
 			</tr>
 		</table>
 		<h3>Cafe</h3>
@@ -165,16 +174,16 @@
 			delighted to present you with a curated selection of our favorite cafes, each offering its unique charm and the perfect setting 
 			for your needs.
 		</p>
-		<table align="center">
+		<table>
 			<tr>
 				<td><img src="assets/images/DayImg/Balzacs.jpg" alt="Balzac's cafe" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/CoffeeCookie.jpg" alt="Fahrenheit coffee" width="300" height="250"></td>
 				<td><img src="assets/images/DayImg/TimHortonsRestaurant.webp" alt="Tim Hortons" width="300" height="250"></td>
 			</tr>
 			<tr>
-				<td align="center"><a href="https://balzacs.com/pages/distillery-district">BALZAC'S</a></td>
-				<td align="center"><a href="http://www.fahrenheitcoffee.com/">FAHRENHEIT COFFEE</a></td>
-				<td align="center"><a href="https://www.timhortons.ca/?_gl=1*1m1k26m*_gcl_au*NDUwMDU8NDMyLjE2OTY4ODg1M">TIM HORTONS</a></td>
+				<td><a href="https://balzacs.com/pages/distillery-district">BALZAC'S</a></td>
+				<td><a href="http://www.fahrenheitcoffee.com/">FAHRENHEIT COFFEE</a></td>
+				<td><a href="https://www.timhortons.ca/?_gl=1*1m1k26m*_gcl_au*NDUwMDU8NDMyLjE2OTY4ODg1M">TIM HORTONS</a></td>
 			</tr>
 		</table>
 	</main>
