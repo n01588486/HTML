@@ -2,18 +2,94 @@
 <html lang = "en">
  <head>
  <title>4Star | Jobs</title>
+ <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
  </head>
 <form>
 <style>
-h1 {text-align: center;}
-h3 {text-align: center;}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    border: 2.5px dashed blue;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+hr {
+    border: 3px double darkblue
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4 {font-size: 25px;}
 
-table, th, td {border:2px solid black;}
-th{font-size: 28px;}
+table, th, td {
+    border:3px solid blue;
+    background-color: lightskyblue;
+    color: whitesmoke;
+}
+table {
+border-radius: 25px;
+padding: 10px; 
+background-color: darkblue;
+}
+img.firstImg {
+ box-shadow: 2px;
+}
+img.allImgs {
+ border: 2px solid black;
+ border-radius: 25px;
+ padding: 7px;
+ background-color: black;
+}
+th {
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+}
+td {font-size: 20px;
+border-radius: 7px;}
 
+a {
+ font-size: 20px;
+ color: darkblue;
+ font-weight: bold;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+blockquote {
+ background-color: blue;
+ border: 2px solid darkblue;
+ padding: 5px;
+ border-radius: 7px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 20px;
+    background-color: lightcyan;
+    border: 2px soild blue;
+}
+
+section {
+ font-size: 20px;
+ border: 5px double blue;
+ background-color: lightskyblue;
+ border-radius: 25px;
+ padding: 7px;
+ font-family: Arial, Helvetica, sans-serif;
+ width: 600px;
+}
+body {
+    background-color: rgb(147, 195, 236);
+}
 </style>
 <h1><b><u> Job Information/Listings </u></b></h1> 
 <nav align="center">
+    <div class="pageLinks">
     <a href="HomePage.html">Home</a>
     <a href="Job.html">Job</a>
     <a href="index.html">SignUp</a>
@@ -21,16 +97,15 @@ th{font-size: 28px;}
     <a href="Location.html">Locations</a>
     <a href="Places.html">Places</a>
     <a href ="Preferences.html">Preferences</a>
+</div>
 </nav>
 <br>
-<img src = "assets/images/WeAreHiring.jpg" height ="160px" width = "1480px" alt="">
-
 <table>
 <tr>
 <th colspan = "2"> McDonald's Employee </th>
 </tr>
 <tr>
-<td> <img src = "assets/images/McDonaldsEmploy.jpg" height ="340px" width = "560px" alt="McEmploy"> </td>
+<td> <img class="allImgs" src = "assets/images/McDonaldsEmploy.jpg" height ="340px" width = "560px" alt="McEmploy"> </td>
 <td> <blockquote> <p> &ldquo;Our People Promise sets out what crew and managers value the most about working with McDonald’s, the opportunity to earn and learn with access to education, experience and skills development suiting their needs, choice through flexible hours that suit them best, and with locations in communities across Canada, we can provide a job close to home. We empower company-owned or independently franchised restaurant employees to bring their authentic selves to work by fostering a safe, respectful, and inclusive environment, welcoming people of every age, background, and culture—just like the guests who visit our restaurants every day.&rdquo; </p>
 - McDonald's Management<br>
 <p><em><u> Avaiable Jobs at McDonald's </u></em></p>
@@ -52,7 +127,7 @@ Want to Learn More about Employment at McDonald's <a href="https://careers.mcdon
 <th colspan = "2"> Burger King Employee </th>
 </tr>
 <tr>
-<td> <img src = "assets/images/BurgerKingEmploy.jpg" height ="340px" width = "560px" alt="BKEmploy"> </td>
+<td> <img class="allImgs" src = "assets/images/BurgerKingEmploy.jpg" height ="340px" width = "560px" alt="BKEmploy"> </td>
 <td> <blockquote> <p> &ldquo;Most Burger King® restaurants are locally owned and operated by franchise operators and growing leaders who are passionate to serve guests and their fellow team members alike – in the ways they know best.  Founded in 1954, Burger King® is the second largest fast food hamburger chain in the world. The original Home of the Whopper, Burger King®’s commitment to premium ingredients, signature recipes, and family-friendly dining experiences is what has defined the brand for more than 50 successful years. &rdquo; </p>
 - Burger King Management<br>
 <p><em><u> Avaiable Jobs at Burger King </u></em></p>
@@ -75,7 +150,7 @@ Want to Learn More about Employment at Burger King <a href="https://careers.burg
 <th colspan = "2"> KFC Employee </th>
 </tr>
 <tr>
-<td> <img src = "assets/images/KFCEmploy.jpg" height ="340px" width = "560px" alt="KFCEmploy"> </td>
+<td> <img class="allImgs" src = "assets/images/KFCEmploy.jpg" height ="340px" width = "560px" alt="KFCEmploy"> </td>
 <td> <blockquote> <p> &ldquo;When you join the KFC Brand, you join our Family! Our KFC Family takes pride in our high quality standards, southern-inspired hospitality and serving guests our world-famous chicken! We have a passion for people – not only our guests – we value our employees and understand how you make a difference in our restaurants! Working at KFC is more than a job, you have the opportunity to help families create memories and be a community partner! &rdquo; </p>
 - KFC Management<br>
 <p><em><u> Avaiable Jobs at KFC </u></em></p>
@@ -111,7 +186,7 @@ Want to Learn More about Employment at KFC <a href="https://www.kfc.ca/career">C
 </ul>
 Want to Learn More about Employment at Taco Bell <a href="https://yumcanada.talcura.com/Candidates/TacoBell/Jobs.aspx?rest=1">Click Here </a>
 </blockquote> </td>
-<td> <img src = "assets/images/TacoBellEmploy.jpg" height ="360px" width = "580px" alt="TBEmploy"> </td>
+<td> <img class="allImgs" src = "assets/images/TacoBellEmploy.jpg" height ="360px" width = "580px" alt="TBEmploy"> </td>
 </tr>
 </table>
 
@@ -126,18 +201,19 @@ Want to Learn More about Employment at Taco Bell <a href="https://yumcanada.talc
 - Subway Management<br>
 <p><em><u> Avaiable Jobs at Subway </u></em></p>
 <ul>
-<li> Subway Sandwich Artist </li>
-<li> Shift Manager </li>
-<li> Assistant Manager </li>
-<li> Cook </li>
-<li> Cashier </li>
+    <li> Subway Sandwich Artist </li>
+    <li> Shift Manager </li>
+    <li> Assistant Manager </li>
+    <li> Cook </li>
+    <li> Cashier </li>
 </ul>
 Want to Learn More about Employment at Subway <a href="https://www.subway.com/en-ca/careers">Click Here </a>
 </blockquote> </td>
-<td> <img src = "assets/images/SubwayEmploy.jpg" height ="360px" width = "580px" alt="TBEmploy"> </td>
+<td> <img class="allImgs" src = "assets/images/SubwayEmploy.jpg" height ="360px" width = "580px" alt="SWEmploy"> </td>
 </tr>
 </table>
 <hr>
+<section id="InfoInput">
 <h2><em><u> Send in your Application </u></em></h2>
 <h4><em> Contact Info </em></h4>
 <label for="email">E-MAIL ADDRESS:</label><br>
@@ -151,6 +227,8 @@ What Resturant would you like to Apply to?<br>
 <input type="text" id="apply" name = "apply" maxlength="30" size="35"><br>
 <label for="myfile">Please Sumbit Your Resume:</label><br>
 <input type="file" id="myfile" name="myfile">
-<input type="submit" > <input type="reset"><br>
+<input type="submit" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;" > 
+<input type="reset" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;"> <br>
+</section>
 </form>
 </html>

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Sign Up</title>
+    <title>Sign Up</title>
+    <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
     <style>
         /* Add some basic styling for readability */
         body {
