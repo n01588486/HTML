@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
     <style>
         /* Add some basic styling for readability */
         body {
@@ -19,14 +21,15 @@
         }
 
         .container {
+			width: 350px;
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
         }
 
-        label, input {
-            display: block;
+        label, input, span {
+            display: inline-block;
             margin-bottom: 10px;
         }
     </style>
@@ -34,17 +37,20 @@
 <body>
     <div class="container">
         <h2>Sign Up</h2>
-        <form action="process_signup.php" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+        <form id="signup" action="process_signup.html" method="get">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username">
+			<span id="user_error">*</span><br><br>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password">
+			<span id="pass_error">*</span><br><br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email">
+			<span id="email_error">*</span><br><br>
 
-            <input type="submit" value="Sign Up">
+            <input type="button" id="sub" value="Sign Up">
         </form>
     </div>
 </body>
