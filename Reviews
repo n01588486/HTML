@@ -2,7 +2,8 @@
  <html lang = "en">
  <head>
  <title> Reviews/Critics Page 5 </title>
- </head>
+ <script src="Job_Review_Code.js"></script>
+</head>
 <style>
 h1 {text-align: center;
     font-size: 50px;
@@ -183,15 +184,15 @@ Did you find this Review Helpful? <button type= "button"; style= "background-col
 <td>
 <h2><u> Write your <em>OWN</em> Review</u></h2>
 <label for="email">E-MAIL ADDRESS:</label><br>
-<input type ="email" name="email" id="email" required><br>
+<input type ="email" name="email" id="emails"> <span id="EResult"></span><br>
 <label for="fname">FIRST NAME:</label><br>
-<input type="text" id="fname" name="fname" required><br>
+<input type="text" id="fnames" name="fname"> <span id="FResult"></span><br>
 <label for="lname">LAST NAME:</label><br>
-<input type="text" id="lname" name="lnamess" required><br>
+<input type="text" id="lnames" name="lnames"> <span id="LResult"></span><br>
 What Resturant are you writing a review for?<br>
-<input type="text" id="restu" name = "restu" maxlength="30" size="35"><br>
-<textarea id="review" name="review" rows="20" cols="100"> </textarea><br>
-<input type="submit" > <input type="reset"><br> </td>
+<input type="text" id="restus" name = "restu" maxlength="30" size="35"> <span id="ResResult"></span><br>
+<textarea id="reviews" name="review" rows="20" cols="100"> </textarea> <span id="RevResult"></span><br>
+<input type="submit" onclick="ReviewVali()" > <input type="reset"><br> </td>
 <td>
 <img class="a" src = "assets/images/Reviewing.jpg" height ="460px" width = "680px" alt="rating"> </td>
 </tr>
