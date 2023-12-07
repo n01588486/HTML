@@ -80,12 +80,11 @@ body {
 <form>
 <h1><b><u> Resturant Reviews </u></b></h1> 
 <h3>
-<a href="home.html">Home</a> 
+<a href="HomePage.html">Home</a> 
 <a href="Job.html">Jobs </a>
 <a href="index.html">Sign Up</a>
 <a href="Reviews.html">Reviews </a>
-<a href="HomePage.html">Locations</a> 
-<a href="cityResurants.html">City Resturants</a>
+<a href="Location.html">Locations</a> 
 <a href= "Preferences.html">Preferences</a>
 </h3>
 <img src = "assets/images/5Stars.jpg" height ="180px" width = "680px" alt="rating">

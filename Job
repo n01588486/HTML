@@ -91,13 +91,12 @@ body {
 <h1><b><u> Job Information/Listings </u></b></h1> 
 <nav align="center">
     <div class="pageLinks">
-    <a href="home.html">Home</a>
-    <a href="Job.html">Job</a>
-    <a href="index.html">SignUp</a>
-    <a href="Reviews.html">Review</a>
-    <a href="HomePage.html">Locations</a>
-    <a href="cityResurants.html">CityRestaurants</a>
-    <a href ="Preferences.html">Preferences</a>
+<a href="HomePage.html">Home</a> 
+<a href="Job.html">Jobs </a>
+<a href="index.html">Sign Up</a>
+<a href="Reviews.html">Reviews </a>
+<a href="Location.html">Locations</a> 
+<a href= "Preferences.html">Preferences</a>
 </div>
 </nav>
 <br>
@@ -235,4 +234,3 @@ What Restaurant would you like to Apply to?<br>
 <!--Doing this for Pushing-->
 </form>
 </html>
-
