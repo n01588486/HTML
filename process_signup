@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+			width: 250px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+        }
+		
+		h2 {
+			text-align: center;
+		}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Account Created</h2>     
+    </div>
+</body>
+</html>
