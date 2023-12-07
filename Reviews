@@ -3,7 +3,8 @@
  <head>
  <title>4Star | Reviews</title>
  <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
- </head>
+ <script src="js/Job_Review_Code.js"></script>
+</head>
 <style>
 h1 {text-align: center;
     font-size: 50px;
@@ -74,25 +75,19 @@ font-size: 32px;
 body {
     background-color: coral;
 }
-
-hr {
-	border: 3px double darkred
-}
 </style>
 <body>
 <form>
 <h1><b><u> Resturant Reviews </u></b></h1> 
 <h3>
-<nav align="center">
-    <a href="HomePage.html">Home</a>
-    <a href="Job.html">Job</a>
-    <a href="index.html">SignUp</a>
-    <a href="Reviews.html">Review</a>
-    <a href="Location.html">Locations</a>
-    <a href="Places.html">Places</a>
-    <a href ="Preferences.html">Preferences</a>
-</nav>
+<a href="HomePage.html">Home</a> 
+<a href="Job.html">Jobs </a>
+<a href="index.html">Sign Up</a>
+<a href="Reviews.html">Reviews </a>
+<a href="Location.html">Locations</a> 
+<a href= "Preferences.html">Preferences</a>
 </h3>
+<img src = "assets/images/5Stars.jpg" height ="180px" width = "680px" alt="rating">
 <hr>
 <hr>
 <table>
@@ -189,20 +184,21 @@ Did you find this Review Helpful? <button type= "button"; style= "background-col
 <td>
 <h2><u> Write your <em>OWN</em> Review</u></h2>
 <label for="email">E-MAIL ADDRESS:</label><br>
-<input type ="email" name="email" id="email" required><br>
+<input type ="email" name="email" id="emails"> <span id="EResult"></span><br>
 <label for="fname">FIRST NAME:</label><br>
-<input type="text" id="fname" name="fname" required><br>
+<input type="text" id="fnames" name="fname"> <span id="FResult"></span><br>
 <label for="lname">LAST NAME:</label><br>
-<input type="text" id="lname" name="lnamess" required><br>
+<input type="text" id="lnames" name="lnames"> <span id="LResult"></span><br>
 What Resturant are you writing a review for?<br>
-<input type="text" id="restu" name = "restu" maxlength="30" size="35"><br>
-<textarea id="review" name="review" rows="20" cols="100"> </textarea><br>
-<input type="submit" > <input type="reset"><br> </td>
+<input type="text" id="restus" name = "restu" maxlength="30" size="35"> <span id="ResResult"></span><br>
+<textarea id="reviews" name="review" rows="20" cols="100"> </textarea> <span id="RevResult"></span><br>
+<input type="submit" onclick="ReviewVali()" > <input type="reset"><br> </td>
 <td>
 <img class="a" src = "assets/images/Reviewing.jpg" height ="460px" width = "680px" alt="rating"> </td>
 </tr>
 </table>
 <hr>
 </form>
+<!--Doing this for Pushing-->
 </body>
 </html>
