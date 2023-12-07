@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Success</title>
     <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script src="js/index.js"></script>
     <style>
-        /* Add some basic styling for readability */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -21,37 +20,22 @@
         }
 
         .container {
-			width: 350px;
+			width: 250px;
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
         }
+		
+		h2 {
+			text-align: center;
+		}
 
-        label, input, span {
-            display: inline-block;
-            margin-bottom: 10px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Sign Up</h2>
-        <form id="signup" action="process_signup.html" method="get">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username">
-			<span id="user_error">*</span><br><br>
-
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password">
-			<span id="pass_error">*</span><br><br>
-
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email">
-			<span id="email_error">*</span><br><br>
-
-            <input type="button" id="sub" value="Sign Up">
-        </form>
+        <h2>Account Created</h2>     
     </div>
 </body>
 </html>

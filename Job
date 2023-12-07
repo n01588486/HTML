@@ -1,6 +1,7 @@
 <html lang = "en">
  <head>
  <title>4Star | Jobs</title>
+ <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
  </head>
 <form>
 <style>
@@ -88,6 +89,7 @@ body {
 <h1><b><u> Job Information/Listings </u></b></h1> 
 <nav align="center">
     <div class="pageLinks">
+    <div class="pageLinks">
     <a href="HomePage.html">Home</a>
     <a href="Job.html">Job</a>
     <a href="index.html">SignUp</a>
@@ -96,9 +98,9 @@ body {
     <a href="Places.html">Places</a>
     <a href ="Preferences.html">Preferences</a>
 </div>
+</div>
 </nav>
 <br>
-<img class="firstImg" src = "assets/images/WeAreHiring.jpg" height ="160px" width = "1480px" alt="">
 <table>
 <tr>
 <th colspan = "2"> McDonald's Employee </th>
@@ -205,6 +207,11 @@ Want to Learn More about Employment at Taco Bell <a href="https://yumcanada.talc
     <li> Assistant Manager </li>
     <li> Cook </li>
     <li> Cashier </li>
+    <li> Subway Sandwich Artist </li>
+    <li> Shift Manager </li>
+    <li> Assistant Manager </li>
+    <li> Cook </li>
+    <li> Cashier </li>
 </ul>
 Want to Learn More about Employment at Subway <a href="https://www.subway.com/en-ca/careers">Click Here </a>
 </blockquote> </td>
@@ -212,6 +219,7 @@ Want to Learn More about Employment at Subway <a href="https://www.subway.com/en
 </tr>
 </table>
 <hr>
+<section id="InfoInput">
 <section id="InfoInput">
 <h2><em><u> Send in your Application </u></em></h2>
 <h4><em> Contact Info </em></h4>
@@ -226,6 +234,9 @@ What Resturant would you like to Apply to?<br>
 <input type="text" id="apply" name = "apply" maxlength="30" size="35"><br>
 <label for="myfile">Please Sumbit Your Resume:</label><br>
 <input type="file" id="myfile" name="myfile">
+<input type="submit" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;" > 
+<input type="reset" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;"> <br>
+</section>
 <input type="submit" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;" > 
 <input type="reset" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;"> <br>
 </section>

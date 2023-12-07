@@ -1,0 +1,37 @@
+var $ = function (id) {
+	return document.getElementById(id);
+	}
+var validate = function () {
+	var user = $("username").value;
+	var pass = $("password").value;
+	var email = $("email").value;
+	var isValid = true;
+	
+	if (user == "") {
+		$("user_error").firstChild.nodeValue ="This field is required.";
+		isValid = false;
+		}else { 
+		$("user_error").firstChild.nodeValue = ""; 
+		}
+		
+	if (pass == "") {
+		$("pass_error").firstChild.nodeValue ="This field is required.";
+		isValid = false;
+		}else { 
+		$("pass_error").firstChild.nodeValue = ""; 
+		}
+		
+	if (email == "") {
+		$("email_error").firstChild.nodeValue ="This field is required.";
+		isValid = false;
+		}else { 
+		$("email_error").firstChild.nodeValue = ""; 
+		}
+	
+	if (isValid) {
+		// submit the form if all entries are valid
+		$("signup").submit();
+		}
+}
+window.onload = function () {
+	$("sub").onclick = validate;}

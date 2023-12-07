@@ -2,6 +2,7 @@
  <html lang = "en">
  <head>
  <title>4Star | Reviews</title>
+ <link rel="icon" type="image/png" href="assets/icons/4starBall.png" sizes="32x32">
  </head>
 <style>
 h1 {text-align: center;
@@ -73,6 +74,10 @@ font-size: 32px;
 body {
     background-color: coral;
 }
+
+hr {
+	border: 3px double darkred
+}
 </style>
 <body>
 <form>
@@ -88,7 +93,6 @@ body {
     <a href ="Preferences.html">Preferences</a>
 </nav>
 </h3>
-<img src = "assets/images/5Stars.jpg" height ="180px" width = "680px" alt="rating">
 <hr>
 <hr>
 <table>
