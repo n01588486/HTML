@@ -230,4 +230,5 @@ What Restaurant would you like to Apply to?<br>
 <input type="submit" onclick="JobVali()" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;" > 
 <input type="reset" style="font-size: 20px; color: blue; background-color: lightblue; border:1px solid blue; border-radius: 3px;"> <br>
 </section>
+<!--Doing this for Pushing-->
 </form>
